@@ -18,20 +18,20 @@ pacmanpackages=(
     "brightnessctl"
     "swww"
     "hyprpicker"
+    "zip"
 )
 
 sudo pacman -S --noconfirm git 
 
 sudo pacman -S --noconfirm gum 
 
-git clone https://github.com/adam-coates/archdotfiles.git
 
 git clone https://github.com/adam-coates/dotfiles.git
-
-
-curl -fsSl https://bun.sh/install.sh | bash
 
 
 gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -s --noconfirm $i; done
 
 gum confirm && for k in ${yaypackages[@]}; do yay -S $i; done
+
+curl -fsSl https://bun.sh/install.sh | bash
+
