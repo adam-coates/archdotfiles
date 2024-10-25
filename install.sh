@@ -7,7 +7,6 @@ yaypackages=(
 )
 
 pacmanpackages=(
-    "hyprland-git"
     "hyprpaper"
     "chromium"
     "nwg-look"
