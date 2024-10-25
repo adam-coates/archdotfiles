@@ -25,6 +25,10 @@ sudo pacman -S --noconfirm git
 
 sudo pacman -S --noconfirm gum 
 
+git clone https://github.com/adam-coates/archdotfiles.git
+
+git clone https://github.com/adam-coates/dotfiles.git
+
 
 
 
