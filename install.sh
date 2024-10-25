@@ -31,7 +31,7 @@ git clone https://github.com/adam-coates/dotfiles.git
 
 gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -S --noconfirm $i; done
 
-gum confirm && for k in ${yaypackages[@]}; do yay -S $i; done
+gum confirm && for k in ${yaypackages[@]}; do yay -S $k; done
 
 curl -fsSl https://bun.sh/install.sh | bash
 
