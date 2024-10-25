@@ -19,6 +19,7 @@ pacmanpackages=(
     "swww"
     "hyprpicker"
     "zip"
+    "unzip"
 )
 
 sudo pacman -S --noconfirm git 
