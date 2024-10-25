@@ -3,7 +3,8 @@
 yaypackages=(
     "hyprland-git"
     "aylurs-gtk-shell"
-    "matagen-bin"
+    "matugen-bin"
+    "morewaita-icon-theme-git"
 )
 
 pacmanpackages=(
@@ -20,6 +21,9 @@ pacmanpackages=(
     "hyprpicker"
     "zip"
     "unzip"
+    "libdbusmenu-gtk3"
+    "gnome-bluetooth-3.0"
+    "networkmanager"
 )
 
 sudo pacman -S --noconfirm git 
@@ -36,3 +40,4 @@ gum confirm && for k in ${yaypackages[@]}; do yay -S $k; done
 
 curl -fsSl https://bun.sh/install.sh | bash
 
+sudo pacman -S pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon

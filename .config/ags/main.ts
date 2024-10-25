@@ -1,41 +1,22 @@
-import "lib/session"
-import "style/style"
-import init from "lib/init"
-import options from "options"
-import Bar from "widget/bar/Bar"
-import Launcher from "widget/launcher/Launcher"
-import NotificationPopups from "widget/notifications/NotificationPopups"
-import OSD from "widget/osd/OSD"
-import Overview from "widget/overview/Overview"
-import PowerMenu from "widget/powermenu/PowerMenu"
-import ScreenCorners from "widget/bar/ScreenCorners"
-import SettingsDialog from "widget/settings/SettingsDialog"
-import Verification from "widget/powermenu/Verification"
-import { forMonitors } from "lib/utils"
-import { setupQuickSettings } from "widget/quicksettings/QuickSettings"
-import { setupDateMenu } from "widget/datemenu/DateMenu"
+import 'lib/session';
+import 'scss/style';
+import 'globals/useTheme';
+import 'globals/dropdown.js';
+import 'globals/utilities';
+
+import { Bar } from 'modules/bar/Bar';
+import MenuWindows from './modules/menus/main.js';
+import SettingsDialog from 'widget/settings/SettingsDialog';
+import Notifications from './modules/notifications/index.js';
+import { forMonitors } from 'lib/utils';
+import OSD from 'modules/osd/index';
 
 App.config({
-    onConfigParsed: () => {
-        setupQuickSettings()
-        setupDateMenu()
-        init()
-    },
+    onConfigParsed: () => Utils.execAsync(`python3 ${App.configDir}/services/bluetooth.py`),
+    windows: [...MenuWindows, Notifications(), SettingsDialog(), ...forMonitors(Bar), OSD()],
     closeWindowDelay: {
-        "launcher": options.transition.value,
-        "overview": options.transition.value,
-        "quicksettings": options.transition.value,
-        "datemenu": options.transition.value,
+        sideright: 350,
+        launcher: 350,
+        bar0: 350,
     },
-    windows: () => [
-        ...forMonitors(Bar),
-        ...forMonitors(NotificationPopups),
-        ...forMonitors(ScreenCorners),
-        ...forMonitors(OSD),
-        Launcher(),
-        Overview(),
-        PowerMenu(),
-        SettingsDialog(),
-        Verification(),
-    ],
-})
+});
