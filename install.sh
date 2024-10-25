@@ -29,7 +29,7 @@ sudo pacman -S --noconfirm gum
 git clone https://github.com/adam-coates/dotfiles.git
 
 
-gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -s --noconfirm $i; done
+gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -S --noconfirm $i; done
 
 gum confirm && for k in ${yaypackages[@]}; do yay -S $i; done
 
