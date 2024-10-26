@@ -5,6 +5,9 @@ yaypackages=(
     "aylurs-gtk-shell"
     "matugen-bin"
     "morewaita-icon-theme-git"
+    "grimblast-git"
+    "gpu-screen-recorder"
+    "python-gpustat"
 )
 
 pacmanpackages=(
@@ -17,21 +20,34 @@ pacmanpackages=(
     "dart-sass"
     "fd"
     "brightnessctl"
-    "swww"
     "hyprpicker"
     "zip"
     "unzip"
     "libdbusmenu-gtk3"
     "gnome-bluetooth-3.0"
     "networkmanager"
+    "ttf-meslo-nerd"
+    "libgtop" 
+    "bluez" 
+    "bluez-utils" 
+    "btop"
+    "wl-clipboard"
+    "python" 
+    "pacman-contrib" 
+    "power-profiles-daemon"
+    "tmux"
+    "nodejs"
+    "starship"
+    "fzf"
+    "eza"
+    "bat"
+    "fastfetch"
 )
 
 sudo pacman -S --noconfirm git 
 
 sudo pacman -S --noconfirm gum 
 
-
-git clone https://github.com/adam-coates/dotfiles.git
 
 
 gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -S --noconfirm $i; done
@@ -40,4 +56,11 @@ gum confirm && for k in ${yaypackages[@]}; do yay -S $k; done
 
 curl -fsSl https://bun.sh/install.sh | bash
 
-sudo pacman -S pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon
+cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
+
+
+
+
+
+
+
