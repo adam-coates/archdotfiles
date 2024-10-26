@@ -44,6 +44,12 @@ pacmanpackages=(
     "pyenv"
     "htop"
     "rofi"
+    "npm"
+    "thunar"
+    "sddm"
+    "qt5-graphicaleffects"
+    "qt5-quickcontrols2"
+    "qt5-svg"
 )
 
 sudo pacman -S --noconfirm git 
@@ -56,17 +62,28 @@ gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -S --noconfirm $i; 
 
 gum confirm && for k in ${yaypackages[@]}; do yay -S $k; done
 
+touch ~/.inputrc
+
 gum confirm && cp ~/archdotfiles/.bashrc ~/
 
-gum confirm && curl -fsSl https://bun.sh/install.sh | bash && source ~/.bashrc
+gum confirm && curl -fsSl https://bun.sh/install.sh | bash
+
+source ~/.bashrc
 
 cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
 
 cp -a ~/archdotfiles/.config/. ~/.config
 
+mkdir -p ~/.cache/
+
+cp -a ~/archdotfiles/.cache ~
+
 cp ~/archdotfiles/.tmux.conf ~/
 
-touch ~/.inputrc
+sudo systemctl enable sddm
+
+sudo pacman -S --needed ‑  
+
 
 
 
