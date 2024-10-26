@@ -7,7 +7,6 @@ yaypackages=(
     "morewaita-icon-theme-git"
     "grimblast-git"
     "gpu-screen-recorder"
-    "python-gpustat"
 )
 
 pacmanpackages=(
@@ -43,6 +42,8 @@ pacmanpackages=(
     "bat"
     "fastfetch"
     "pyenv"
+    "htop"
+    "rofi"
 )
 
 sudo pacman -S --noconfirm git 
@@ -62,11 +63,11 @@ cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
 
 cp -a ~/archdotfiles/.config/. ~/.config
 
-cp -a ~/archdotfiles/.tmux/ ~/
-
 cp ~/archdotfiles/.tmux.conf ~/
 
 cp ~/archdotfiles/.bashrc ~/
+
+touch ~/.inputrc
 
 
 

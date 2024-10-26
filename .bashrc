@@ -101,3 +101,4 @@ eval "$(starship init bash)"
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
     fastfetch --config examples/13
+fi
