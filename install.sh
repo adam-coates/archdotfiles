@@ -42,6 +42,7 @@ pacmanpackages=(
     "eza"
     "bat"
     "fastfetch"
+    "pyenv"
 )
 
 sudo pacman -S --noconfirm git 
@@ -59,6 +60,13 @@ curl -fsSl https://bun.sh/install.sh | bash
 cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
 
 
+cp -a ~/archdotfiles/.config/. ~/.config
+
+cp -a ~/archdotfiles/.tmux ~/
+
+cp ~/archdotfiles/.tmux.conf ~/
+
+cp ~/archdotfiles/.bashrc ~/
 
 
 
