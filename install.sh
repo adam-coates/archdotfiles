@@ -62,7 +62,7 @@ cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
 
 cp -a ~/archdotfiles/.config/. ~/.config
 
-cp -a ~/archdotfiles/.tmux ~/
+cp -a ~/archdotfiles/.tmux/ ~/
 
 cp ~/archdotfiles/.tmux.conf ~/
 
