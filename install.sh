@@ -56,16 +56,15 @@ gum confirm && for i in ${pacmanpackages[@]}; do sudo pacman -S --noconfirm $i; 
 
 gum confirm && for k in ${yaypackages[@]}; do yay -S $k; done
 
-curl -fsSl https://bun.sh/install.sh | bash
+gum confirm && cp ~/archdotfiles/.bashrc ~/
+
+gum confirm && curl -fsSl https://bun.sh/install.sh | bash && source ~/.bashrc
 
 cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
-
 
 cp -a ~/archdotfiles/.config/. ~/.config
 
 cp ~/archdotfiles/.tmux.conf ~/
-
-cp ~/archdotfiles/.bashrc ~/
 
 touch ~/.inputrc
 
