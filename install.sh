@@ -80,9 +80,7 @@ cp -a ~/archdotfiles/.cache ~
 
 cp ~/archdotfiles/.tmux.conf ~/
 
-sudo systemctl enable sddm
 
-sudo pacman -S --needed ‑  
 
 
 
