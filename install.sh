@@ -68,7 +68,6 @@ gum confirm && cp ~/archdotfiles/.bashrc ~/
 
 gum confirm && curl -fsSl https://bun.sh/install.sh | bash
 
-source ~/.bashrc
 
 cp ~/archdotfiles/stairs.jpg ~/wallpaper.jpg
 
