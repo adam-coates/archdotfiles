@@ -24,6 +24,7 @@ yaypackages=(
     "grimblast-git"
     "gpu-screen-recorder"
     "bibata-cursor-theme"
+    "swaylock-effects"
 )
 
 pacmanpackages=(
@@ -113,7 +114,7 @@ cp ~/archdotfiles/.tmux.conf ~/
 echo -ne "$(ColorPurple 'Would you like to install the SDDM theme?')"
 
 if gum confirm; then
-    sudo cp -a ~/archdotfiles/sddm-theme/ /usr/share/sddm/themes/
+    sudo cp -a ~/archdotfiles/sddm-theme/sugar-candy/ /usr/share/sddm/themes/
     sudo mkdir /etc/sddm.conf.d/
     sudo cp ~/archdotfiles/sddm.conf /etc/sddm.conf.d/sddm.conf
     sudo systemctl enable sddm.service
