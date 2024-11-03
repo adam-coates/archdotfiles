@@ -32,17 +32,17 @@ Arch dotfiles. Using:
 
 
 
-![](./snapshot_2024-11-03_21-20-44.png)
+![](./screenshots/snapshot_2024-11-03_21-20-44.png)
 
-![](./snapshot_2024-11-03_21-23-40.png)
+![](./screenshots/snapshot_2024-11-03_21-23-40.png)
 
-![](./snapshot_2024-11-03_21-23-09.png)
+![](./screenshots/snapshot_2024-11-03_21-23-09.png)
 
-![](./snapshot_2024-11-03_21-25-59.png)
+![](./screenshots/snapshot_2024-11-03_21-25-59.png)
 
-![](./snapshot_2024-11-03_21-28-35.png)
+![](./screenshots/snapshot_2024-11-03_21-28-35.png)
 
-![](./snapshot_2024-11-03_21-30-44.png)
+![](./screenshots/snapshot_2024-11-03_21-30-44.png)
 
 
 ---
