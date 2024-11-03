@@ -29,7 +29,7 @@ yaypackages=(
 
 pacmanpackages=(
     "hyprpaper"
-    "chromium"
+    "firefox"
     "nwg-look"
     "ttf-font-awesome"
     "neovim"
@@ -44,6 +44,7 @@ pacmanpackages=(
     "gnome-bluetooth-3.0"
     "networkmanager"
     "ttf-meslo-nerd"
+    "ttf-victor-mono-nerd"
     "libgtop" 
     "bluez" 
     "bluez-utils" 
