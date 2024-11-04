@@ -26,7 +26,7 @@ Arch dotfiles. Using:
 
 - Colorscheme: Gruvbox 
 
-- Browser: Firefox ([textfox](https://github.com/adriankarlen/textfox) [sideberry](https://github.com/mbnuqw/sidebery) )
+- Browser: Firefox ([textfox](https://github.com/adriankarlen/textfox) & [sideberry](https://github.com/mbnuqw/sidebery) & [mtab](https://github.com/maxhu08/mtab) )
 
 - Screenshots: Grimblast
 
