@@ -342,9 +342,9 @@
   "theme.bar.floating": false,
   "theme.bar.transparent": true,
   "theme.bar.buttons.opacity": 100,
-  "theme.bar.buttons.background_opacity": 60,
-  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "chromium",
-  "menus.dashboard.shortcuts.left.shortcut1.command": "chromium",
+  "theme.bar.buttons.background_opacity": 30,
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.clock.weather.location": "Graz",
   "menus.clock.weather.unit": "metric",
   "menus.dashboard.directories.left.directory1.command": "bash -c \"thunar $HOME/Downloads/\"",
@@ -352,5 +352,73 @@
   "menus.dashboard.directories.left.directory3.command": "bash -c \"thunar $HOME/Projects/\"",
   "menus.dashboard.directories.right.directory1.command": "bash -c \"thunar $HOME/Documents/\"",
   "menus.dashboard.directories.right.directory2.command": "bash -c \"thunar $HOME/Pictures/\"",
-  "menus.dashboard.directories.right.directory3.command": "bash -c \"thunar $HOME/\""
+  "menus.dashboard.directories.right.directory3.command": "bash -c \"thunar $HOME/\"",
+  "menus.dashboard.stats.interval": 2000,
+  "menus.clock.weather.key": "adf78fb14f4b476aaf4181029242910",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media",
+        "updates"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications",
+        "power"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.power.sleep": "systemctl suspend",
+  "bar.customModules.updates.leftClick": "kitty ~/scripts/installupdates.sh",
+  "bar.network.rightClick": "kitty ~/scripts/univpn.sh",
+  "theme.font.name": "VictorMono Nerd Font Mono",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "bar.workspaces.workspaces": 5,
+  "menus.dashboard.powermenu.avatar.image": "/home/adam/test.png",
+  "menus.power.showLabel": true,
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": false,
+  "bar.scrollSpeed": 5,
+  "bar.customModules.power.icon": "⏻",
+  "theme.bar.buttons.modules.power.enableBorder": false
 }
