@@ -4,6 +4,13 @@
 export EDITOR=nvim
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
+export PATH=$PATH:~/.local/bin
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH
+export PATH="/home/adam/psychopy_2024.2.4_py3.10/.bin:$PATH"
 
 # -----------------------------------------------------
 # ALIASES
@@ -11,6 +18,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 alias univpn='~/scripts/univpn.sh'
 alias x2go=~/scripts/startx2go.sh
 alias watchsensors="watch -n 1 -d sensors"
+alias on=~/scripts/on
+alias sort_inbox=~/scripts/sort_inbox.sh
 # -----------------------------------------------------
 # General
 # -----------------------------------------------------
@@ -65,7 +74,7 @@ _fzf_compgen_dir() {
 }
 
 # bat theeme ]
-export BAT_THEME='Everforest Dark'
+export BAT_THEME='gruvbox-dark'
 
 # ---- Eza (better ls) -----
 
@@ -102,3 +111,11 @@ eval "$(starship init bash)"
 if [[ $(tty) == *"pts"* ]]; then
     fastfetch --config examples/13
 fi
+
+
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+
+. "$HOME/.cargo/env"
