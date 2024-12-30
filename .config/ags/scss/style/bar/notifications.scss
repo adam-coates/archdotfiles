@@ -13,25 +13,29 @@
     .bar-button-icon.notifications {
         border-top-left-radius: $bar-buttons-radius;
         border-bottom-left-radius: $bar-buttons-radius;
-        background: if($bar-buttons-monochrome, $bar-buttons-icon, $bar-buttons-notifications-icon_background);
+        background: if(
+            $bar-buttons-monochrome,
+            $bar-buttons-icon_background,
+            $bar-buttons-notifications-icon_background
+        );
         padding: $bar-buttons-padding_y 0em;
         padding-left: $bar-buttons-padding_x;
         padding-right: $bar-buttons-notifications-spacing;
         border-top-left-radius: if(
             $bar-buttons-notifications-enableBorder or $bar-buttons-enableBorders,
-            $bar-buttons-radius * 0.4,
+            $bar-buttons-radius * $bar-buttons-innerRadiusMultiplier,
             $bar-buttons-radius
         );
         border-bottom-left-radius: if(
             $bar-buttons-notifications-enableBorder or $bar-buttons-enableBorders,
-            $bar-buttons-radius * 0.4,
+            $bar-buttons-radius * $bar-buttons-innerRadiusMultiplier,
             $bar-buttons-radius
         );
-        color: if($bar-buttons-monochrome, $bar-buttons-icon, $bar-buttons-notifications-icon);
-
         &:last-child {
             border-radius: $bar-buttons-radius;
         }
+
+        color: if($bar-buttons-monochrome, $bar-buttons-icon, $bar-buttons-notifications-icon);
     }
 
     .bar-button-label.notifications {
@@ -45,12 +49,12 @@
         .bar-button-icon.notifications {
             border-top-right-radius: if(
                 $bar-buttons-notifications-enableBorder or $bar-buttons-enableBorders,
-                $bar-buttons-radius * 0.4,
+                $bar-buttons-radius * $bar-buttons-innerRadiusMultiplier,
                 $bar-buttons-radius
             );
             border-bottom-right-radius: if(
                 $bar-buttons-notifications-enableBorder or $bar-buttons-enableBorders,
-                $bar-buttons-radius * 0.4,
+                $bar-buttons-radius * $bar-buttons-innerRadiusMultiplier,
                 $bar-buttons-radius
             );
         }
@@ -60,7 +64,8 @@
 .bar_item_box_visible.notifications {
     border: if(
         $bar-buttons-notifications-enableBorder or $bar-buttons-enableBorders,
-        $bar-buttons-borderSize solid if($bar-buttons-monochrome, $bar-buttons-icon, $bar-buttons-notifications-border),
+        $bar-buttons-borderSize solid
+            if($bar-buttons-monochrome, $bar-buttons-borderColor, $bar-buttons-notifications-border),
         0em
     );
 }

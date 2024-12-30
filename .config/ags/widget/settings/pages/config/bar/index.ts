@@ -54,10 +54,27 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                 }),
                 /*
                  ******************************
-                 *          SPACING           *
+                 *          GENERAL           *
                  ******************************
                  */
-                Header('Spacing'),
+                Header('General'),
+                Option({
+                    opt: options.theme.bar.border.location,
+                    title: 'Bar Border Location',
+                    type: 'enum',
+                    enums: ['none', 'full', 'top', 'right', 'bottom', 'left', 'horizontal', 'vertical'],
+                }),
+                Option({
+                    opt: options.theme.bar.border.width,
+                    title: 'Bar Border Width',
+                    type: 'string',
+                }),
+                Option({
+                    opt: options.theme.bar.border_radius,
+                    title: 'Border Radius',
+                    subtitle: 'Only applies if floating is enabled',
+                    type: 'string',
+                }),
                 Option({
                     opt: options.theme.bar.outer_spacing,
                     title: 'Outer Spacing',
@@ -92,6 +109,14 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     type: 'string',
                 }),
                 Option({
+                    opt: options.theme.bar.buttons.innerRadiusMultiplier,
+                    title: 'Inner Button Radius Multiplier',
+                    subtitle:
+                        'Change this to fine-tune the padding and prevent any overflow' +
+                        ' or gaps between the content and the border',
+                    type: 'string',
+                }),
+                Option({
                     opt: options.theme.bar.layer,
                     title: 'Layer',
                     type: 'enum',
@@ -122,12 +147,6 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     subtitle: 'Only applies if floating is enabled',
                     type: 'string',
                 }),
-                Option({
-                    opt: options.theme.bar.border_radius,
-                    title: 'Border Radius',
-                    subtitle: 'Only applies if floating is enabled',
-                    type: 'string',
-                }),
 
                 /*
                  ******************************
@@ -152,6 +171,11 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     opt: options.bar.launcher.icon,
                     title: 'Dashboard Menu Icon',
                     type: 'string',
+                }),
+                Option({
+                    opt: options.bar.launcher.autoDetectIcon,
+                    title: 'Auto Detect Icon',
+                    type: 'boolean',
                 }),
                 Option({
                     opt: options.theme.bar.buttons.dashboard.enableBorder,
@@ -259,11 +283,46 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                 Option({
                     opt: options.bar.workspaces.showWsIcons,
                     title: 'Map Workspaces to Icons',
+                    subtitle: 'https://hyprpanel.com/configuration/panel.html#show-workspace-icons',
+                    subtitleLink: 'https://hyprpanel.com/configuration/panel.html#show-workspace-icons',
                     type: 'boolean',
                 }),
                 Option({
+                    opt: options.bar.workspaces.showApplicationIcons,
+                    title: 'Map Workspaces to Application Icons',
+                    subtitle:
+                        "Requires 'Map Workspace to Icons' to be enabled\n" +
+                        'https://hyprpanel.com/configuration/panel.html#map-workspaces-to-application-icons',
+                    subtitleLink: 'https://hyprpanel.com/configuration/panel.html#map-workspaces-to-application-icons',
+                    type: 'boolean',
+                }),
+                Option({
+                    opt: options.bar.workspaces.applicationIconOncePerWorkspace,
+                    title: 'Hide Duplicate App Icons',
+                    type: 'boolean',
+                }),
+                Option({
+                    opt: options.bar.workspaces.applicationIconMap,
+                    title: 'App Icon Mappings',
+                    subtitle: "Use the class/title output of 'hyprctl clients' to match against",
+                    type: 'object',
+                }),
+                Option({
+                    opt: options.bar.workspaces.applicationIconFallback,
+                    title: 'Fallback App Icon',
+                    subtitle: 'Fallback icon to display if no specific icon is defined for the application',
+                    type: 'string',
+                }),
+                Option({
+                    opt: options.bar.workspaces.applicationIconEmptyWorkspace,
+                    title: 'App Icon for empty workspace',
+                    type: 'string',
+                }),
+                Option({
                     opt: options.bar.workspaces.workspaceIconMap,
-                    title: 'Workspace Icon Mappings',
+                    title: 'Workspace Icon & Color Mappings',
+                    subtitle: 'https://hyprpanel.com/configuration/panel.html#show-workspace-icons',
+                    subtitleLink: 'https://hyprpanel.com/configuration/panel.html#show-workspace-icons',
                     type: 'object',
                 }),
                 Option({
@@ -463,6 +522,11 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     type: 'boolean',
                 }),
                 Option({
+                    opt: options.bar.network.showWifiInfo,
+                    title: 'Show Wifi Info On Hover',
+                    type: 'boolean',
+                }),
+                Option({
                     opt: options.bar.network.truncation,
                     title: 'Truncate Network Name',
                     subtitle: 'Will truncate the network name to the specified size below.',
@@ -611,6 +675,15 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     subtitleLink: 'https://hyprpanel.com/configuration/panel.html#system-tray',
                     type: 'object',
                 }),
+                Option({
+                    opt: options.bar.systray.customIcons,
+                    title: 'Custom Systray Icons',
+                    subtitle:
+                        'An object defining custom icons for the system tray.\n' +
+                        'Wiki: https://hyprpanel.com/configuration/panel.html#custom-systray-icons',
+                    subtitleLink: 'https://hyprpanel.com/configuration/panel.html#custom-systray-icons',
+                    type: 'object',
+                }),
 
                 /*
                  ******************************
@@ -688,9 +761,10 @@ export const BarSettings = (): Scrollable<Gtk.Widget, Gtk.Widget> => {
                     type: 'string',
                 }),
                 Option({
-                    opt: options.bar.media.show_artist,
-                    title: 'Show Track Artist',
-                    type: 'boolean',
+                    opt: options.bar.media.format,
+                    title: 'Label Format',
+                    subtitle: 'Available placeholders: {title}, {artists}, {artist}, {album}, {name}, {identity}',
+                    type: 'string',
                 }),
                 Option({
                     opt: options.bar.media.show_label,

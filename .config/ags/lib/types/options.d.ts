@@ -15,6 +15,9 @@ export type RecursiveOptionsObject = {
 };
 
 export type BarLocation = 'top' | 'bottom';
+export type BarLayout = {
+    [key: string]: Layout;
+};
 
 export type Unit = 'imperial' | 'metric';
 export type PowerOptions = 'sleep' | 'reboot' | 'logout' | 'shutdown';
@@ -215,3 +218,7 @@ export type ColorMapKey = keyof typeof defaultColorMap;
 export type ColorMapValue = (typeof defaultColorMap)[ColorMapKey];
 
 export type ScalingPriority = 'gdk' | 'hyprland' | 'both';
+
+export type BluetoothBatteryState = 'paired' | 'connected' | 'always';
+
+export type BorderLocation = 'none' | 'top' | 'right' | 'bottom' | 'left' | 'horizontal' | 'vertical' | 'full';

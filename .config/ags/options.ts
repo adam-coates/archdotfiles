@@ -4,7 +4,10 @@ import { KbLabelType } from 'lib/types/customModules/kbLayout';
 import {
     ActiveWsIndicator,
     BarButtonStyles,
+    BarLayout,
     BarLocation,
+    BluetoothBatteryState,
+    BorderLocation,
     NotificationAnchor,
     OSDAnchor,
     OSDOrientation,
@@ -12,9 +15,10 @@ import {
     WindowLayer,
 } from 'lib/types/options';
 import { MatugenScheme, MatugenTheme, MatugenVariations } from 'lib/types/options';
+import { SystrayIconMap } from 'lib/types/systray';
 import { UnitType } from 'lib/types/weather';
 import { Transition } from 'lib/types/widget';
-import { WorkspaceIcons, WorkspaceIconsColored } from 'lib/types/workspace';
+import { ApplicationIcons, WorkspaceIcons, WorkspaceIconsColored } from 'lib/types/workspace';
 
 // WARN: CHANGING THESE VALUES WILL PREVENT MATUGEN COLOR GENERATION FOR THE CHANGED VALUE
 export const colors = {
@@ -87,6 +91,9 @@ const tertiary_colors = {
 
 const options = mkOptions(OPTIONS, {
     theme: {
+        tooltip: {
+            scaling: opt(100),
+        },
         matugen: opt(false),
         matugen_settings: {
             mode: opt<MatugenTheme>('dark'),
@@ -153,16 +160,23 @@ const options = mkOptions(OPTIONS, {
             transparent: opt(false),
             dropdownGap: opt('2.9em'),
             background: opt(colors.crust),
+            border: {
+                location: opt<BorderLocation>('none'),
+                width: opt('0.15em'),
+                color: opt(colors.lavender),
+            },
             buttons: {
                 style: opt<BarButtonStyles>('default'),
                 enableBorders: opt(false),
                 borderSize: opt('0.1em'),
+                borderColor: opt(colors.lavender),
                 monochrome: opt(false),
                 spacing: opt('0.25em'),
                 padding_x: opt('0.7rem'),
                 padding_y: opt('0.2rem'),
                 y_margins: opt('0.4em'),
                 radius: opt('0.3em'),
+                innerRadiusMultiplier: opt('0.4'),
                 opacity: opt(100),
                 background_opacity: opt(100),
                 background_hover_opacity: opt(100),
@@ -241,6 +255,7 @@ const options = mkOptions(OPTIONS, {
                 },
                 systray: {
                     enableBorder: opt(false),
+                    customIcon: opt(colors.text),
                     border: opt(colors.lavender),
                     background: opt(colors.base2),
                     spacing: opt('0.5em'),
@@ -288,6 +303,15 @@ const options = mkOptions(OPTIONS, {
                         background: opt(colors.base2),
                         text: opt(colors.red),
                         icon: opt(colors.red),
+                        icon_background: opt(colors.base2),
+                        spacing: opt('0.5em'),
+                    },
+                    cpuTemp: {
+                        enableBorder: opt(false),
+                        border: opt(colors.peach),
+                        background: opt(colors.base2),
+                        text: opt(colors.peach),
+                        icon: opt(colors.peach),
                         icon_background: opt(colors.base2),
                         spacing: opt('0.5em'),
                     },
@@ -353,6 +377,15 @@ const options = mkOptions(OPTIONS, {
                         icon_background: opt(colors.base2),
                         spacing: opt('0.45em'),
                     },
+                    hyprsunset: {
+                        enableBorder: opt(false),
+                        border: opt(colors.peach),
+                        background: opt(colors.base2),
+                        text: opt(colors.peach),
+                        icon: opt(colors.peach),
+                        icon_background: opt(colors.base2),
+                        spacing: opt('0.45em'),
+                    },
                 },
             },
             menus: {
@@ -371,6 +404,8 @@ const options = mkOptions(OPTIONS, {
                 feinttext: opt(colors.surface0),
                 label: opt(colors.lavender),
                 popover: {
+                    scaling: opt(100),
+                    radius: opt('0.4em'),
                     text: opt(colors.lavender),
                     background: opt(secondary_colors.mantle),
                     border: opt(secondary_colors.mantle),
@@ -387,6 +422,8 @@ const options = mkOptions(OPTIONS, {
                     enabled: opt(colors.lavender),
                     disabled: opt(tertiary_colors.surface0),
                     puck: opt(secondary_colors.surface1),
+                    radius: opt('0.2em'),
+                    slider_radius: opt('0.2em'),
                 },
                 check_radio_button: {
                     background: opt(colors.surface1),
@@ -397,6 +434,7 @@ const options = mkOptions(OPTIONS, {
                     active: opt(secondary_colors.pink),
                     disabled: opt(tertiary_colors.surface2),
                     text: opt(secondary_colors.mantle),
+                    radius: opt('0.4em'),
                 },
                 iconbuttons: {
                     passive: opt(secondary_colors.text),
@@ -405,12 +443,15 @@ const options = mkOptions(OPTIONS, {
                 progressbar: {
                     foreground: opt(colors.lavender),
                     background: opt(colors.surface1),
+                    radius: opt('0.3rem'),
                 },
                 slider: {
                     primary: opt(colors.lavender),
                     background: opt(tertiary_colors.surface2),
                     backgroundhover: opt(colors.surface1),
                     puck: opt(colors.overlay0),
+                    slider_radius: opt('0.3rem'),
+                    progress_radius: opt('0.3rem'),
                 },
                 dropdownmenu: {
                     background: opt(colors.crust),
@@ -418,6 +459,7 @@ const options = mkOptions(OPTIONS, {
                     divider: opt(colors.base),
                 },
                 tooltip: {
+                    radius: opt('0.3em'),
                     background: opt(colors.crust),
                     text: opt(tertiary_colors.lavender),
                 },
@@ -427,6 +469,7 @@ const options = mkOptions(OPTIONS, {
                         song: opt(tertiary_colors.lavender),
                         artist: opt(tertiary_colors.teal),
                         album: opt(tertiary_colors.pink),
+                        timestamp: opt(colors.text),
                         background: {
                             color: opt(colors.crust),
                         },
@@ -820,7 +863,7 @@ const options = mkOptions(OPTIONS, {
 
     bar: {
         scrollSpeed: opt(5),
-        layouts: opt({
+        layouts: opt<BarLayout>({
             '1': {
                 left: ['dashboard', 'workspaces', 'windowtitle'],
                 middle: ['media'],
@@ -839,6 +882,7 @@ const options = mkOptions(OPTIONS, {
         }),
         launcher: {
             icon: opt('󰣇'),
+            autoDetectIcon: opt(false),
             rightClick: opt(''),
             middleClick: opt(''),
             scrollUp: opt(''),
@@ -864,6 +908,11 @@ const options = mkOptions(OPTIONS, {
             ignored: opt(''),
             show_numbered: opt(false),
             showWsIcons: opt(false),
+            showApplicationIcons: opt(false),
+            applicationIconOncePerWorkspace: opt(true),
+            applicationIconMap: opt<ApplicationIcons>({}),
+            applicationIconFallback: opt('󰣆'),
+            applicationIconEmptyWorkspace: opt(''),
             numbered_active_indicator: opt<ActiveWsIndicator>('underline'),
             icons: {
                 available: opt(''),
@@ -871,7 +920,7 @@ const options = mkOptions(OPTIONS, {
                 occupied: opt(''),
             },
             workspaceIconMap: opt<WorkspaceIcons | WorkspaceIconsColored>({}),
-            workspaces: opt(10),
+            workspaces: opt(5),
             spacing: opt(1),
             monitorSpecific: opt(true),
             hideUnoccupied: opt(true),
@@ -888,6 +937,7 @@ const options = mkOptions(OPTIONS, {
         },
         network: {
             truncation: opt(true),
+            showWifiInfo: opt(false),
             truncation_size: opt(7),
             label: opt(true),
             rightClick: opt(''),
@@ -912,6 +962,7 @@ const options = mkOptions(OPTIONS, {
         },
         systray: {
             ignore: opt<string[]>([]),
+            customIcons: opt<SystrayIconMap>({}),
         },
         clock: {
             icon: opt('󰸗'),
@@ -924,7 +975,7 @@ const options = mkOptions(OPTIONS, {
             scrollDown: opt(''),
         },
         media: {
-            show_artist: opt(false),
+            format: opt('{artist: - }{title}'),
             truncation: opt(true),
             show_label: opt(true),
             truncation_size: opt(30),
@@ -963,6 +1014,20 @@ const options = mkOptions(OPTIONS, {
                 scrollUp: opt(''),
                 scrollDown: opt(''),
             },
+            cpuTemp: {
+                icon: opt(''),
+                sensor: opt(''),
+                label: opt(true),
+                round: opt(true),
+                showUnit: opt(true),
+                unit: opt<UnitType>('metric'),
+                pollingInterval: opt(2000),
+                leftClick: opt(''),
+                rightClick: opt(''),
+                middleClick: opt(''),
+                scrollUp: opt(''),
+                scrollDown: opt(''),
+            },
             storage: {
                 label: opt(true),
                 icon: opt('󰋊'),
@@ -976,6 +1041,7 @@ const options = mkOptions(OPTIONS, {
             netstat: {
                 label: opt(true),
                 networkInterface: opt(''),
+                dynamicIcon: opt(false),
                 icon: opt('󰖟'),
                 round: opt(true),
                 labelType: opt<NetstatLabelType>('full'),
@@ -1038,12 +1104,40 @@ const options = mkOptions(OPTIONS, {
                 scrollUp: opt(''),
                 scrollDown: opt(''),
             },
+            hyprsunset: {
+                temperature: opt('6000k'),
+                label: opt(true),
+                onIcon: opt('󱩌'),
+                offIcon: opt('󰛨'),
+                onLabel: opt('On'),
+                offLabel: opt('Off'),
+                pollingInterval: opt(1000 * 2),
+                rightClick: opt(''),
+                middleClick: opt(''),
+                scrollUp: opt(''),
+                scrollDown: opt(''),
+            },
         },
     },
 
     menus: {
         transition: opt<Transition>('crossfade'),
         transitionTime: opt(200),
+        media: {
+            hideAuthor: opt(false),
+            hideAlbum: opt(false),
+            displayTime: opt(false),
+            displayTimeTooltip: opt(false),
+            noMediaText: opt('No Media Currently Playing'),
+        },
+        bluetooth: {
+            showBattery: opt(false),
+            batteryState: opt<BluetoothBatteryState>('connected'),
+            batteryIcon: opt('󰥉'),
+        },
+        volume: {
+            raiseMaximumVolume: opt(false),
+        },
         power: {
             showLabel: opt(true),
             confirmation: opt(true),
@@ -1114,29 +1208,29 @@ const options = mkOptions(OPTIONS, {
                 left: {
                     directory1: {
                         label: opt('󰉍 Downloads'),
-                        command: opt('bash -c "dolphin $HOME/Downloads/"'),
+                        command: opt('bash -c "xdg-open $HOME/Downloads/"'),
                     },
                     directory2: {
                         label: opt('󰉏 Videos'),
-                        command: opt('bash -c "dolphin $HOME/Videos/"'),
+                        command: opt('bash -c "xdg-open $HOME/Videos/"'),
                     },
                     directory3: {
                         label: opt('󰚝 Projects'),
-                        command: opt('bash -c "dolphin $HOME/Projects/"'),
+                        command: opt('bash -c "xdg-open $HOME/Projects/"'),
                     },
                 },
                 right: {
                     directory1: {
                         label: opt('󱧶 Documents'),
-                        command: opt('bash -c "dolphin $HOME/Documents/"'),
+                        command: opt('bash -c "xdg-open $HOME/Documents/"'),
                     },
                     directory2: {
                         label: opt('󰉏 Pictures'),
-                        command: opt('bash -c "dolphin $HOME/Pictures/"'),
+                        command: opt('bash -c "xdg-open $HOME/Pictures/"'),
                     },
                     directory3: {
                         label: opt('󱂵 Home'),
-                        command: opt('bash -c "dolphin $HOME/"'),
+                        command: opt('bash -c "xdg-open $HOME/"'),
                     },
                 },
             },
@@ -1160,8 +1254,7 @@ const options = mkOptions(OPTIONS, {
 
     scalingPriority: opt<ScalingPriority>('gdk'),
 
-    terminal: opt('kitty'),
-
+    terminal: opt('$TERM'),
     tear: opt(false),
 
     wallpaper: {
@@ -1176,9 +1269,15 @@ const options = mkOptions(OPTIONS, {
         displayedTotal: opt(10),
         monitor: opt(0),
         active_monitor: opt(true),
+        showActionsOnHover: opt(false),
         timeout: opt(7000),
         cache_actions: opt(true),
         clearDelay: opt(100),
+    },
+
+    hyprpanel: {
+        restartAgs: opt(true),
+        restartCommand: opt('ags -q; ags'),
     },
 
     dummy: opt(true),

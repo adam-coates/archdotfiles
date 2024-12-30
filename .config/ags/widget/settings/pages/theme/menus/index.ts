@@ -71,6 +71,11 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                 Option({ opt: options.theme.bar.menus.border.color, title: 'Border Color', type: 'color' }),
 
                 Header('Popover'),
+                Option({
+                    opt: options.theme.bar.menus.popover.radius,
+                    title: 'Popover Radius',
+                    type: 'string',
+                }),
                 Option({ opt: options.theme.bar.menus.popover.text, title: 'Text', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.popover.background, title: 'Background', type: 'color' }),
 
@@ -91,6 +96,12 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                 Header('Switch'),
                 Option({ opt: options.theme.bar.menus.switch.enabled, title: 'Enabled', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.switch.disabled, title: 'Disabled', type: 'color' }),
+                Option({ opt: options.theme.bar.menus.switch.radius, title: 'Switch Radius', type: 'string' }),
+                Option({
+                    opt: options.theme.bar.menus.switch.slider_radius,
+                    title: 'Switch Puck Radius',
+                    type: 'string',
+                }),
                 Option({ opt: options.theme.bar.menus.switch.puck, title: 'Puck', type: 'color' }),
 
                 Header('Check/Radio Buttons'),
@@ -102,6 +113,7 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                 Option({ opt: options.theme.bar.menus.check_radio_button.active, title: 'Active', type: 'color' }),
 
                 Header('Buttons'),
+                Option({ opt: options.theme.bar.menus.buttons.radius, title: 'Button Radius', type: 'string' }),
                 Option({ opt: options.theme.bar.menus.buttons.default, title: 'Primary', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.buttons.active, title: 'Active', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.buttons.disabled, title: 'Disabled', type: 'color' }),
@@ -112,6 +124,11 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                 Option({ opt: options.theme.bar.menus.iconbuttons.active, title: 'Active/Hovered', type: 'color' }),
 
                 Header('Progress Bar'),
+                Option({
+                    opt: options.theme.bar.menus.progressbar.radius,
+                    title: 'Progress Bar Radius',
+                    type: 'string',
+                }),
                 Option({ opt: options.theme.bar.menus.progressbar.foreground, title: 'Primary', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.progressbar.background, title: 'Background', type: 'color' }),
 
@@ -123,6 +140,16 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                     title: 'Background (Hover)',
                     type: 'color',
                 }),
+                Option({
+                    opt: options.theme.bar.menus.slider.slider_radius,
+                    title: 'Slider Puck Radius',
+                    type: 'string',
+                }),
+                Option({
+                    opt: options.theme.bar.menus.slider.progress_radius,
+                    title: 'Slider/Progress Bar Radius',
+                    type: 'string',
+                }),
                 Option({ opt: options.theme.bar.menus.slider.puck, title: 'Puck', type: 'color' }),
 
                 Header('Dropdown Menu'),
@@ -131,6 +158,11 @@ export const MenuTheme = (): Scrollable<Child, Attribute> => {
                 Option({ opt: options.theme.bar.menus.dropdownmenu.divider, title: 'Divider', type: 'color' }),
 
                 Header('Tooltips'),
+                Option({
+                    opt: options.theme.bar.menus.tooltip.radius,
+                    title: 'Tooltip Radius',
+                    type: 'string',
+                }),
                 Option({ opt: options.theme.bar.menus.tooltip.background, title: 'Background', type: 'color' }),
                 Option({ opt: options.theme.bar.menus.tooltip.text, title: 'Text', type: 'color' }),
             ],
