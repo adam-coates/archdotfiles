@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+﻿vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
@@ -59,9 +59,11 @@ keymap.set("n", "<leader>on", function()
 end, { desc = "Create Obsidian note with template" })
 
 
-vim.api.nvim_set_keymap(
-    "n",
-    "<leader>td",
-    ":lua require('custom_functions').todoist_telescope_picker()<CR>",
-    { noremap = true, silent = true }
-)
+-- Bold: position cursor between **
+vim.keymap.set('v', '<leader>b', 'c****<Esc>hhp')
+
+-- Italic: position cursor between *
+vim.keymap.set('v', '<leader>i', 'c**<Esc>hp')
+
+-- Both: position cursor between ***
+vim.keymap.set('v', '<leader>bi', 'c******<Esc>hhhp')
