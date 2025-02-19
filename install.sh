@@ -17,7 +17,6 @@ ColorPurple(){
 }
 
 yaypackages=(
-    "hyprland-git"
     "aylurs-gtk-shell"
     "matugen-bin"
     "morewaita-icon-theme-git"
@@ -28,6 +27,7 @@ yaypackages=(
 )
 
 pacmanpackages=(
+    "hyprland"
     "hyprpaper"
     "firefox"
     "nwg-look"
