@@ -12,11 +12,9 @@ Arch dotfiles. Using:
 
 - Terminal: Kitty
 
-- Wallpaper: This beauty here
-
 - Icon Theme: MoreWaita
 
-- Fonts: VictorMono Nerd Font Mono
+- Fonts: Commit mono 
 
 - File Manager: Thunar
 
@@ -26,7 +24,7 @@ Arch dotfiles. Using:
 
 - Colorscheme: Gruvbox 
 
-- Browser: Firefox ([textfox](https://github.com/adriankarlen/textfox) & [sideberry](https://github.com/mbnuqw/sidebery) & [mtab](https://github.com/maxhu08/mtab) )
+- Browser: Zen browser [mtab](https://github.com/maxhu08/mtab) )
 
 - Screenshots: Grimblast
 
