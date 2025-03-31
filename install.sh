@@ -23,12 +23,12 @@ yaypackages=(
     "bibata-cursor-theme"
     "swaylock-effects"
     "ags-hyprpanel-git"
+    "zen-browser-bin"
 )
 
 pacmanpackages=(
     "hyprland"
     "hyprpaper"
-    "firefox"
     "nwg-look"
     "ttf-font-awesome"
     "neovim"
