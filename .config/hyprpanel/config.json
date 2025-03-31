@@ -354,7 +354,7 @@
   "menus.dashboard.directories.right.directory2.command": "bash -c \"thunar $HOME/Pictures/\"",
   "menus.dashboard.directories.right.directory3.command": "bash -c \"xdg-open $HOME/\"",
   "menus.dashboard.stats.interval": 2000,
-  "menus.clock.weather.key": "7db2e762b3b84b9eaad221316251901",
+  "menus.clock.weather.key": "",
   "bar.layouts": {
     "0": {
       "left": [
