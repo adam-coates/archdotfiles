@@ -17,13 +17,12 @@ ColorPurple(){
 }
 
 yaypackages=(
-    "aylurs-gtk-shell"
-    "matugen-bin"
     "morewaita-icon-theme-git"
     "grimblast-git"
     "gpu-screen-recorder"
     "bibata-cursor-theme"
     "swaylock-effects"
+    "ags-hyprpanel-git"
 )
 
 pacmanpackages=(
