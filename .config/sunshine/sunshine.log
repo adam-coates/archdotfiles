@@ -1,0 +1,1840 @@
+[2025-04-22 20:28:37.334]: Info: Sunshine version: v2025.122.141614
+[2025-04-22 20:28:37.334]: Info: Package Publisher: LizardByte
+[2025-04-22 20:28:37.334]: Info: Publisher Website: https://app.lizardbyte.dev
+[2025-04-22 20:28:37.334]: Info: Get support: https://app.lizardbyte.dev/support
+[2025-04-22 20:28:37.336]: Error: Couldn't load cuda: -1
+[2025-04-22 20:28:37.336]: Info: Found display [wayland-1]
+[2025-04-22 20:28:37.336]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:28:37.336]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:28:37.336]: Warning: Missing Wayland wire for wlr-export-dmabuf
+[2025-04-22 20:28:37.336]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:37.336]: Info: Found display [wayland-1]
+[2025-04-22 20:28:37.337]: Info: Found display [wayland-1]
+[2025-04-22 20:28:37.337]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:28:37.337]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:28:37.337]: Info: Resolution: 3440x1440
+[2025-04-22 20:28:37.337]: Info: Name: DP-2
+[2025-04-22 20:28:37.337]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:28:37.337]: Info: Offset: 0x0
+[2025-04-22 20:28:37.337]: Info: Logical size: 3440x1440
+[2025-04-22 20:28:37.337]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 20:28:37.337]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:28:37.337]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 20:28:37.376]: Info: System tray created
+[2025-04-22 20:28:37.763]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 20:28:37.763]: Info: Trying encoder [nvenc]
+[2025-04-22 20:28:37.763]: Info: Screencasting with KMS
+[2025-04-22 20:28:37.763]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:37.764]: Error: Couldn't find monitor [0]
+[2025-04-22 20:28:37.764]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:37.764]: Error: Couldn't find monitor [0]
+[2025-04-22 20:28:37.964]: Info: Screencasting with KMS
+[2025-04-22 20:28:37.964]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:37.964]: Error: Couldn't find monitor [0]
+[2025-04-22 20:28:37.965]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:37.965]: Error: Couldn't find monitor [0]
+[2025-04-22 20:28:38.165]: Info: Encoder [nvenc] failed
+[2025-04-22 20:28:38.165]: Info: Trying encoder [vaapi]
+[2025-04-22 20:28:38.165]: Info: Screencasting with KMS
+[2025-04-22 20:28:38.165]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:38.165]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:28:38.165]: Info: Found connector ID [121]
+[2025-04-22 20:28:38.166]: Info: Found cursor plane [88]
+[2025-04-22 20:28:38.176]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 20:28:38.176]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:28:38.176]: Info: Color depth: 8-bit
+[2025-04-22 20:28:38.176]: Info: Color range: JPEG
+[2025-04-22 20:28:38.188]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:28:38.188]: Info: Using normal encoding mode
+[2025-04-22 20:28:38.188]: Info: Using default rate control
+[2025-04-22 20:28:38.214]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:28:38.214]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:28:38.214]: Info: Color depth: 8-bit
+[2025-04-22 20:28:38.214]: Info: Color range: JPEG
+[2025-04-22 20:28:38.226]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:28:38.226]: Info: Using normal encoding mode
+[2025-04-22 20:28:38.226]: Info: Using default rate control
+[2025-04-22 20:28:38.246]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 20:28:38.246]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:28:38.246]: Info: Color depth: 8-bit
+[2025-04-22 20:28:38.246]: Info: Color range: JPEG
+[2025-04-22 20:28:38.256]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:28:38.256]: Error: [av1_vaapi @ 0x57e17526b980] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 20:28:38.256]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 20:28:38.257]: Info: Screencasting with KMS
+[2025-04-22 20:28:38.257]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:28:38.258]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:28:38.258]: Info: Found connector ID [121]
+[2025-04-22 20:28:38.258]: Info: Found cursor plane [88]
+[2025-04-22 20:28:38.264]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:28:38.264]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 20:28:38.264]: Info: Color depth: 10-bit
+[2025-04-22 20:28:38.264]: Info: Color range: JPEG
+[2025-04-22 20:28:38.275]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:28:38.276]: Info: Using normal encoding mode
+[2025-04-22 20:28:38.276]: Info: Using default rate control
+[2025-04-22 20:28:38.296]: Info: 
+[2025-04-22 20:28:38.296]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 20:28:38.296]: Info: 
+[2025-04-22 20:28:38.296]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 20:28:38.296]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 20:28:38.296]: Fatal: Couldn't bind RTSP server to port [48010], Address already in use
+[2025-04-22 20:28:38.297]: Error: Failed to create client: Daemon n[2025-04-22 20:31:52.569]: Info: Web UI: [127.0.0.1] -- not authorized
+[2025-04-22 20:32:14.093]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 20:32:14.093]: Info: Trying encoder [nvenc]
+[2025-04-22 20:32:14.093]: Info: Screencasting with KMS
+[2025-04-22 20:32:14.093]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.093]: Error: Couldn't find monitor [0]
+[2025-04-22 20:32:14.093]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.094]: Error: Couldn't find monitor [0]
+[2025-04-22 20:32:14.294]: Info: Screencasting with KMS
+[2025-04-22 20:32:14.294]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.294]: Error: Couldn't find monitor [0]
+[2025-04-22 20:32:14.294]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.295]: Error: Couldn't find monitor [0]
+[2025-04-22 20:32:14.495]: Info: Encoder [nvenc] failed
+[2025-04-22 20:32:14.495]: Info: Trying encoder [vaapi]
+[2025-04-22 20:32:14.495]: Info: Screencasting with KMS
+[2025-04-22 20:32:14.495]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.495]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:32:14.495]: Info: Found connector ID [121]
+[2025-04-22 20:32:14.495]: Info: Found cursor plane [88]
+[2025-04-22 20:32:14.502]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 20:32:14.503]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:32:14.503]: Info: Color depth: 8-bit
+[2025-04-22 20:32:14.503]: Info: Color range: JPEG
+[2025-04-22 20:32:14.514]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:32:14.514]: Info: Using normal encoding mode
+[2025-04-22 20:32:14.514]: Info: Using default rate control
+[2025-04-22 20:32:14.541]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:32:14.541]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:32:14.541]: Info: Color depth: 8-bit
+[2025-04-22 20:32:14.541]: Info: Color range: JPEG
+[2025-04-22 20:32:14.553]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:32:14.553]: Info: Using normal encoding mode
+[2025-04-22 20:32:14.553]: Info: Using default rate control
+[2025-04-22 20:32:14.574]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 20:32:14.574]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:32:14.574]: Info: Color depth: 8-bit
+[2025-04-22 20:32:14.574]: Info: Color range: JPEG
+[2025-04-22 20:32:14.584]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:32:14.584]: Error: [av1_vaapi @ 0x7cbf841bf640] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 20:32:14.584]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 20:32:14.585]: Info: Screencasting with KMS
+[2025-04-22 20:32:14.585]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.586]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:32:14.586]: Info: Found connector ID [121]
+[2025-04-22 20:32:14.586]: Info: Found cursor plane [88]
+[2025-04-22 20:32:14.592]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:32:14.592]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 20:32:14.592]: Info: Color depth: 10-bit
+[2025-04-22 20:32:14.592]: Info: Color range: JPEG
+[2025-04-22 20:32:14.603]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:32:14.603]: Info: Using normal encoding mode
+[2025-04-22 20:32:14.603]: Info: Using default rate control
+[2025-04-22 20:32:14.624]: Info: 
+[2025-04-22 20:32:14.624]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 20:32:14.624]: Info: 
+[2025-04-22 20:32:14.624]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 20:32:14.624]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 20:32:14.624]: Info: Executing Do Cmd: [xrandr --output HDMI-1 --mode 1920x1080]
+[2025-04-22 20:32:14.635]: Info: Executing [Desktop]
+[2025-04-22 20:32:14.812]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 20:32:14.866]: Info: CLIENT CONNECTED
+[2025-04-22 20:32:14.869]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.869]: Info: Found display [wayland-1]
+[2025-04-22 20:32:14.869]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:32:14.869]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:32:14.869]: Info: Resolution: 3440x1440
+[2025-04-22 20:32:14.869]: Info: Name: DP-2
+[2025-04-22 20:32:14.869]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:32:14.869]: Info: Offset: 0x0
+[2025-04-22 20:32:14.869]: Info: Logical size: 3440x1440
+[2025-04-22 20:32:14.869]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 20:32:14.869]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:32:14.869]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 20:32:14.869]: Info: Screencasting with KMS
+[2025-04-22 20:32:14.869]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:32:14.869]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:32:14.869]: Info: Found connector ID [121]
+[2025-04-22 20:32:14.870]: Info: Found cursor plane [88]
+[2025-04-22 20:32:14.877]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:32:14.877]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:32:14.877]: Info: Color depth: 8-bit
+[2025-04-22 20:32:14.877]: Info: Color range: MPEG
+[2025-04-22 20:32:14.890]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:32:14.890]: Info: Using normal encoding mode
+[2025-04-22 20:32:14.890]: Info: Using default rate control
+[2025-04-22 20:32:15.367]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 20:32:15.367]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 20:32:15.391]: Info: Opus initialized: 48 kHz, 2 channels, 96 kbps (total), LOWDELAY
+[2025-04-22 20:34:09.352]: Info: CLIENT DISCONNECTED
+[2025-04-22 20:34:09.357]: Info: Setting default sink to: [bluez_output.68_59_32_36_9F_D3.1]
+[2025-04-22 20:34:25.888]: Info: Executing Undo Cmd: [xrandr --output HDMI-1 --mode 1920x1200]
+[2025-04-22 20:34:27.055]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 20:34:27.055]: Info: Trying encoder [nvenc]
+[2025-04-22 20:34:27.055]: Info: Screencasting with KMS
+[2025-04-22 20:34:27.055]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.055]: Error: Couldn't find monitor [0]
+[2025-04-22 20:34:27.055]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.055]: Error: Couldn't find monitor [0]
+[2025-04-22 20:34:27.256]: Info: Screencasting with KMS
+[2025-04-22 20:34:27.256]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.256]: Error: Couldn't find monitor [0]
+[2025-04-22 20:34:27.256]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.257]: Error: Couldn't find monitor [0]
+[2025-04-22 20:34:27.457]: Info: Encoder [nvenc] failed
+[2025-04-22 20:34:27.457]: Info: Trying encoder [vaapi]
+[2025-04-22 20:34:27.457]: Info: Screencasting with KMS
+[2025-04-22 20:34:27.457]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.457]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:34:27.457]: Info: Found connector ID [121]
+[2025-04-22 20:34:27.457]: Info: Found cursor plane [88]
+[2025-04-22 20:34:27.466]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 20:34:27.466]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:34:27.466]: Info: Color depth: 8-bit
+[2025-04-22 20:34:27.466]: Info: Color range: JPEG
+[2025-04-22 20:34:27.476]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:34:27.476]: Info: Using normal encoding mode
+[2025-04-22 20:34:27.476]: Info: Using default rate control
+[2025-04-22 20:34:27.498]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:34:27.498]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:34:27.498]: Info: Color depth: 8-bit
+[2025-04-22 20:34:27.498]: Info: Color range: JPEG
+[2025-04-22 20:34:27.510]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:34:27.510]: Info: Using normal encoding mode
+[2025-04-22 20:34:27.510]: Info: Using default rate control
+[2025-04-22 20:34:27.529]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 20:34:27.529]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:34:27.529]: Info: Color depth: 8-bit
+[2025-04-22 20:34:27.529]: Info: Color range: JPEG
+[2025-04-22 20:34:27.539]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:34:27.540]: Error: [av1_vaapi @ 0x7cbf84103c00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 20:34:27.540]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 20:34:27.541]: Info: Screencasting with KMS
+[2025-04-22 20:34:27.541]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.541]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:34:27.541]: Info: Found connector ID [121]
+[2025-04-22 20:34:27.541]: Info: Found cursor plane [88]
+[2025-04-22 20:34:27.546]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:34:27.546]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 20:34:27.546]: Info: Color depth: 10-bit
+[2025-04-22 20:34:27.546]: Info: Color range: JPEG
+[2025-04-22 20:34:27.556]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:34:27.556]: Info: Using normal encoding mode
+[2025-04-22 20:34:27.556]: Info: Using default rate control
+[2025-04-22 20:34:27.576]: Info: 
+[2025-04-22 20:34:27.576]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 20:34:27.576]: Info: 
+[2025-04-22 20:34:27.576]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 20:34:27.576]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 20:34:27.576]: Info: Executing [Desktop]
+[2025-04-22 20:34:27.722]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 20:34:27.766]: Info: CLIENT CONNECTED
+[2025-04-22 20:34:27.768]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.769]: Info: Found display [wayland-1]
+[2025-04-22 20:34:27.769]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:34:27.769]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:34:27.769]: Info: Resolution: 3440x1440
+[2025-04-22 20:34:27.769]: Info: Name: DP-2
+[2025-04-22 20:34:27.769]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:34:27.769]: Info: Offset: 0x0
+[2025-04-22 20:34:27.769]: Info: Logical size: 3440x1440
+[2025-04-22 20:34:27.769]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 20:34:27.769]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:34:27.769]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 20:34:27.769]: Info: Screencasting with KMS
+[2025-04-22 20:34:27.769]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:34:27.769]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:34:27.769]: Info: Found connector ID [121]
+[2025-04-22 20:34:27.769]: Info: Found cursor plane [88]
+[2025-04-22 20:34:27.776]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:34:27.776]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:34:27.776]: Info: Color depth: 8-bit
+[2025-04-22 20:34:27.776]: Info: Color range: MPEG
+[2025-04-22 20:34:27.789]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:34:27.790]: Info: Using normal encoding mode
+[2025-04-22 20:34:27.790]: Info: Using default rate control
+[2025-04-22 20:34:28.247]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 20:34:28.247]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 20:34:28.269]: Info: Opus initialized: 48 kHz, 2 channels, 96 kbps (total), LOWDELAY
+[2025-04-22 20:34:54.334]: Info: CLIENT DISCONNECTED
+[2025-04-22 20:34:54.338]: Info: Setting default sink to: [bluez_output.68_59_32_36_9F_D3.1]
+[2025-04-22 20:35:26.146]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 20:35:26.146]: Info: Trying encoder [nvenc]
+[2025-04-22 20:35:26.146]: Info: Screencasting with KMS
+[2025-04-22 20:35:26.146]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.147]: Error: Couldn't find monitor [0]
+[2025-04-22 20:35:26.147]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.147]: Error: Couldn't find monitor [0]
+[2025-04-22 20:35:26.347]: Info: Screencasting with KMS
+[2025-04-22 20:35:26.347]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.348]: Error: Couldn't find monitor [0]
+[2025-04-22 20:35:26.348]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.348]: Error: Couldn't find monitor [0]
+[2025-04-22 20:35:26.548]: Info: Encoder [nvenc] failed
+[2025-04-22 20:35:26.548]: Info: Trying encoder [vaapi]
+[2025-04-22 20:35:26.548]: Info: Screencasting with KMS
+[2025-04-22 20:35:26.548]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.549]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:35:26.549]: Info: Found connector ID [121]
+[2025-04-22 20:35:26.549]: Info: Found cursor plane [88]
+[2025-04-22 20:35:26.557]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 20:35:26.557]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:35:26.557]: Info: Color depth: 8-bit
+[2025-04-22 20:35:26.557]: Info: Color range: JPEG
+[2025-04-22 20:35:26.567]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:35:26.567]: Info: Using normal encoding mode
+[2025-04-22 20:35:26.567]: Info: Using default rate control
+[2025-04-22 20:35:26.589]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:35:26.589]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:35:26.589]: Info: Color depth: 8-bit
+[2025-04-22 20:35:26.589]: Info: Color range: JPEG
+[2025-04-22 20:35:26.601]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:35:26.601]: Info: Using normal encoding mode
+[2025-04-22 20:35:26.601]: Info: Using default rate control
+[2025-04-22 20:35:26.621]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 20:35:26.621]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:35:26.621]: Info: Color depth: 8-bit
+[2025-04-22 20:35:26.621]: Info: Color range: JPEG
+[2025-04-22 20:35:26.632]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:35:26.632]: Error: [av1_vaapi @ 0x7cbf84100bc0] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 20:35:26.632]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 20:35:26.633]: Info: Screencasting with KMS
+[2025-04-22 20:35:26.633]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.633]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:35:26.633]: Info: Found connector ID [121]
+[2025-04-22 20:35:26.633]: Info: Found cursor plane [88]
+[2025-04-22 20:35:26.639]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:35:26.639]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 20:35:26.639]: Info: Color depth: 10-bit
+[2025-04-22 20:35:26.639]: Info: Color range: JPEG
+[2025-04-22 20:35:26.649]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:35:26.650]: Info: Using normal encoding mode
+[2025-04-22 20:35:26.650]: Info: Using default rate control
+[2025-04-22 20:35:26.671]: Info: 
+[2025-04-22 20:35:26.671]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 20:35:26.671]: Info: 
+[2025-04-22 20:35:26.671]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 20:35:26.671]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 20:35:26.811]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 20:35:26.859]: Info: CLIENT CONNECTED
+[2025-04-22 20:35:26.861]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.861]: Info: Found display [wayland-1]
+[2025-04-22 20:35:26.862]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:35:26.862]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:35:26.862]: Info: Resolution: 3440x1440
+[2025-04-22 20:35:26.862]: Info: Name: DP-2
+[2025-04-22 20:35:26.862]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:35:26.862]: Info: Offset: 0x0
+[2025-04-22 20:35:26.862]: Info: Logical size: 3440x1440
+[2025-04-22 20:35:26.862]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 20:35:26.862]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:35:26.862]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 20:35:26.862]: Info: Screencasting with KMS
+[2025-04-22 20:35:26.862]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:35:26.862]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:35:26.862]: Info: Found connector ID [121]
+[2025-04-22 20:35:26.862]: Info: Found cursor plane [88]
+[2025-04-22 20:35:26.869]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:35:26.869]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:35:26.869]: Info: Color depth: 8-bit
+[2025-04-22 20:35:26.869]: Info: Color range: MPEG
+[2025-04-22 20:35:26.881]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:35:26.882]: Info: Using normal encoding mode
+[2025-04-22 20:35:26.882]: Info: Using default rate control
+[2025-04-22 20:35:27.328]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 20:35:27.328]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 20:35:27.349]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 20:35:47.506]: Info: CLIENT DISCONNECTED
+[2025-04-22 20:35:47.506]: Info: Setting default sink to: [bluez_output.68_59_32_36_9F_D3.1]
+[2025-04-22 20:36:18.675]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 20:36:18.675]: Info: Trying encoder [nvenc]
+[2025-04-22 20:36:18.675]: Info: Screencasting with KMS
+[2025-04-22 20:36:18.675]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:18.676]: Error: Couldn't find monitor [0]
+[2025-04-22 20:36:18.676]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:18.676]: Error: Couldn't find monitor [0]
+[2025-04-22 20:36:18.876]: Info: Screencasting with KMS
+[2025-04-22 20:36:18.876]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:18.877]: Error: Couldn't find monitor [0]
+[2025-04-22 20:36:18.877]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:18.877]: Error: Couldn't find monitor [0]
+[2025-04-22 20:36:19.077]: Info: Encoder [nvenc] failed
+[2025-04-22 20:36:19.077]: Info: Trying encoder [vaapi]
+[2025-04-22 20:36:19.077]: Info: Screencasting with KMS
+[2025-04-22 20:36:19.077]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:19.077]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:36:19.077]: Info: Found connector ID [121]
+[2025-04-22 20:36:19.078]: Info: Found cursor plane [88]
+[2025-04-22 20:36:19.085]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 20:36:19.085]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:36:19.085]: Info: Color depth: 8-bit
+[2025-04-22 20:36:19.085]: Info: Color range: JPEG
+[2025-04-22 20:36:19.096]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:36:19.096]: Info: Using normal encoding mode
+[2025-04-22 20:36:19.096]: Info: Using default rate control
+[2025-04-22 20:36:19.117]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:36:19.117]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:36:19.117]: Info: Color depth: 8-bit
+[2025-04-22 20:36:19.117]: Info: Color range: JPEG
+[2025-04-22 20:36:19.129]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:36:19.129]: Info: Using normal encoding mode
+[2025-04-22 20:36:19.129]: Info: Using default rate control
+[2025-04-22 20:36:19.151]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 20:36:19.151]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:36:19.151]: Info: Color depth: 8-bit
+[2025-04-22 20:36:19.151]: Info: Color range: JPEG
+[2025-04-22 20:36:19.161]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:36:19.161]: Error: [av1_vaapi @ 0x7cbf841eab00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 20:36:19.161]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 20:36:19.162]: Info: Screencasting with KMS
+[2025-04-22 20:36:19.162]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:19.162]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:36:19.162]: Info: Found connector ID [121]
+[2025-04-22 20:36:19.163]: Info: Found cursor plane [88]
+[2025-04-22 20:36:19.168]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:36:19.168]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 20:36:19.168]: Info: Color depth: 10-bit
+[2025-04-22 20:36:19.168]: Info: Color range: JPEG
+[2025-04-22 20:36:19.177]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:36:19.177]: Info: Using normal encoding mode
+[2025-04-22 20:36:19.177]: Info: Using default rate control
+[2025-04-22 20:36:19.198]: Info: 
+[2025-04-22 20:36:19.198]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 20:36:19.198]: Info: 
+[2025-04-22 20:36:19.198]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 20:36:19.198]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 20:36:19.337]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 20:36:19.385]: Info: CLIENT CONNECTED
+[2025-04-22 20:36:19.388]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:19.388]: Info: Found display [wayland-1]
+[2025-04-22 20:36:19.388]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 20:36:19.388]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 20:36:19.388]: Info: Resolution: 3440x1440
+[2025-04-22 20:36:19.388]: Info: Name: DP-2
+[2025-04-22 20:36:19.388]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:36:19.388]: Info: Offset: 0x0
+[2025-04-22 20:36:19.388]: Info: Logical size: 3440x1440
+[2025-04-22 20:36:19.388]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 20:36:19.388]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 20:36:19.388]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 20:36:19.388]: Info: Screencasting with KMS
+[2025-04-22 20:36:19.388]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 20:36:19.388]: Info: Found monitor for DRM screencasting
+[2025-04-22 20:36:19.388]: Info: Found connector ID [121]
+[2025-04-22 20:36:19.388]: Info: Found cursor plane [88]
+[2025-04-22 20:36:19.395]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 20:36:19.395]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 20:36:19.395]: Info: Color depth: 8-bit
+[2025-04-22 20:36:19.396]: Info: Color range: MPEG
+[2025-04-22 20:36:19.407]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 20:36:19.407]: Info: Using normal encoding mode
+[2025-04-22 20:36:19.407]: Info: Using default rate control
+[2025-04-22 20:36:19.859]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 20:36:19.860]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 20:36:19.881]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 20:36:41.641]: Info: CLIENT DISCONNECTED
+[2025-04-22 20:36:41.643]: Info: Setting default sink to: [bluez_output.68_59_32_36_9F_D3.1]
+[2025-04-22 21:36:48.722]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:37:01.342]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:37:01.342]: Info: Trying encoder [nvenc]
+[2025-04-22 21:37:01.342]: Info: Screencasting with KMS
+[2025-04-22 21:37:01.343]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.343]: Error: Couldn't find monitor [0]
+[2025-04-22 21:37:01.343]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.343]: Error: Couldn't find monitor [0]
+[2025-04-22 21:37:01.543]: Info: Screencasting with KMS
+[2025-04-22 21:37:01.543]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.544]: Error: Couldn't find monitor [0]
+[2025-04-22 21:37:01.544]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.544]: Error: Couldn't find monitor [0]
+[2025-04-22 21:37:01.744]: Info: Encoder [nvenc] failed
+[2025-04-22 21:37:01.744]: Info: Trying encoder [vaapi]
+[2025-04-22 21:37:01.744]: Info: Screencasting with KMS
+[2025-04-22 21:37:01.744]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.744]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:37:01.744]: Info: Found connector ID [121]
+[2025-04-22 21:37:01.745]: Info: Found cursor plane [88]
+[2025-04-22 21:37:01.752]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:37:01.752]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:37:01.752]: Info: Color depth: 8-bit
+[2025-04-22 21:37:01.752]: Info: Color range: JPEG
+[2025-04-22 21:37:01.763]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:37:01.763]: Info: Using normal encoding mode
+[2025-04-22 21:37:01.763]: Info: Using default rate control
+[2025-04-22 21:37:01.782]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:37:01.782]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:37:01.782]: Info: Color depth: 8-bit
+[2025-04-22 21:37:01.782]: Info: Color range: JPEG
+[2025-04-22 21:37:01.793]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:37:01.793]: Info: Using normal encoding mode
+[2025-04-22 21:37:01.793]: Info: Using default rate control
+[2025-04-22 21:37:01.811]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:37:01.811]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:37:01.811]: Info: Color depth: 8-bit
+[2025-04-22 21:37:01.811]: Info: Color range: JPEG
+[2025-04-22 21:37:01.822]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:37:01.822]: Error: [av1_vaapi @ 0x7cbf84fb7e80] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:37:01.822]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:37:01.823]: Info: Screencasting with KMS
+[2025-04-22 21:37:01.823]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:37:01.823]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:37:01.823]: Info: Found connector ID [121]
+[2025-04-22 21:37:01.824]: Info: Found cursor plane [88]
+[2025-04-22 21:37:01.829]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:37:01.829]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:37:01.829]: Info: Color depth: 10-bit
+[2025-04-22 21:37:01.829]: Info: Color range: JPEG
+[2025-04-22 21:37:01.839]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:37:01.839]: Info: Using normal encoding mode
+[2025-04-22 21:37:01.839]: Info: Using default rate control
+[2025-04-22 21:37:01.859]: Info: 
+[2025-04-22 21:37:01.859]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:37:01.859]: Info: 
+[2025-04-22 21:37:01.859]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:37:01.859]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:37:01.859]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:37:01.859]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:37:01.863]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:38:05.607]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:38:05.607]: Info: Trying encoder [nvenc]
+[2025-04-22 21:38:05.607]: Info: Screencasting with KMS
+[2025-04-22 21:38:05.607]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:05.610]: Error: Couldn't find monitor [0]
+[2025-04-22 21:38:05.610]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:05.610]: Error: Couldn't find monitor [0]
+[2025-04-22 21:38:05.810]: Info: Screencasting with KMS
+[2025-04-22 21:38:05.810]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:05.813]: Error: Couldn't find monitor [0]
+[2025-04-22 21:38:05.813]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:05.813]: Error: Couldn't find monitor [0]
+[2025-04-22 21:38:06.013]: Info: Encoder [nvenc] failed
+[2025-04-22 21:38:06.013]: Info: Trying encoder [vaapi]
+[2025-04-22 21:38:06.013]: Info: Screencasting with KMS
+[2025-04-22 21:38:06.013]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:06.013]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:38:06.013]: Info: Found connector ID [121]
+[2025-04-22 21:38:06.014]: Info: Found cursor plane [88]
+[2025-04-22 21:38:06.021]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:38:06.021]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:38:06.021]: Info: Color depth: 8-bit
+[2025-04-22 21:38:06.021]: Info: Color range: JPEG
+[2025-04-22 21:38:06.031]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:38:06.031]: Info: Using normal encoding mode
+[2025-04-22 21:38:06.031]: Info: Using default rate control
+[2025-04-22 21:38:06.052]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:38:06.052]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:38:06.052]: Info: Color depth: 8-bit
+[2025-04-22 21:38:06.052]: Info: Color range: JPEG
+[2025-04-22 21:38:06.063]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:38:06.063]: Info: Using normal encoding mode
+[2025-04-22 21:38:06.063]: Info: Using default rate control
+[2025-04-22 21:38:06.081]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:38:06.081]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:38:06.081]: Info: Color depth: 8-bit
+[2025-04-22 21:38:06.081]: Info: Color range: JPEG
+[2025-04-22 21:38:06.092]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:38:06.092]: Error: [av1_vaapi @ 0x7cbf845bd040] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:38:06.092]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:38:06.093]: Info: Screencasting with KMS
+[2025-04-22 21:38:06.093]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:38:06.093]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:38:06.093]: Info: Found connector ID [121]
+[2025-04-22 21:38:06.093]: Info: Found cursor plane [88]
+[2025-04-22 21:38:06.098]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:38:06.098]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:38:06.098]: Info: Color depth: 10-bit
+[2025-04-22 21:38:06.098]: Info: Color range: JPEG
+[2025-04-22 21:38:06.108]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:38:06.108]: Info: Using normal encoding mode
+[2025-04-22 21:38:06.108]: Info: Using default rate control
+[2025-04-22 21:38:06.127]: Info: 
+[2025-04-22 21:38:06.127]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:38:06.127]: Info: 
+[2025-04-22 21:38:06.127]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:38:06.127]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:38:06.127]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:38:06.127]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:38:06.131]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:41:09.797]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:41:09.797]: Info: Trying encoder [nvenc]
+[2025-04-22 21:41:09.797]: Info: Screencasting with KMS
+[2025-04-22 21:41:09.797]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:09.798]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:09.798]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:09.798]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:09.998]: Info: Screencasting with KMS
+[2025-04-22 21:41:09.998]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:09.999]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:09.999]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:09.999]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:10.199]: Info: Encoder [nvenc] failed
+[2025-04-22 21:41:10.199]: Info: Trying encoder [vaapi]
+[2025-04-22 21:41:10.199]: Info: Screencasting with KMS
+[2025-04-22 21:41:10.199]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:10.200]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:41:10.200]: Info: Found connector ID [121]
+[2025-04-22 21:41:10.200]: Info: Found cursor plane [88]
+[2025-04-22 21:41:10.207]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:41:10.207]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:10.207]: Info: Color depth: 8-bit
+[2025-04-22 21:41:10.207]: Info: Color range: JPEG
+[2025-04-22 21:41:10.217]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:10.217]: Info: Using normal encoding mode
+[2025-04-22 21:41:10.217]: Info: Using default rate control
+[2025-04-22 21:41:10.240]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:41:10.240]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:10.240]: Info: Color depth: 8-bit
+[2025-04-22 21:41:10.240]: Info: Color range: JPEG
+[2025-04-22 21:41:10.251]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:10.251]: Info: Using normal encoding mode
+[2025-04-22 21:41:10.251]: Info: Using default rate control
+[2025-04-22 21:41:10.272]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:41:10.272]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:10.272]: Info: Color depth: 8-bit
+[2025-04-22 21:41:10.272]: Info: Color range: JPEG
+[2025-04-22 21:41:10.282]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:10.282]: Error: [av1_vaapi @ 0x7cbf841e9300] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:41:10.282]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:41:10.283]: Info: Screencasting with KMS
+[2025-04-22 21:41:10.283]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:10.283]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:41:10.283]: Info: Found connector ID [121]
+[2025-04-22 21:41:10.284]: Info: Found cursor plane [88]
+[2025-04-22 21:41:10.289]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:41:10.289]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:41:10.289]: Info: Color depth: 10-bit
+[2025-04-22 21:41:10.289]: Info: Color range: JPEG
+[2025-04-22 21:41:10.299]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:10.299]: Info: Using normal encoding mode
+[2025-04-22 21:41:10.299]: Info: Using default rate control
+[2025-04-22 21:41:10.321]: Info: 
+[2025-04-22 21:41:10.321]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:41:10.321]: Info: 
+[2025-04-22 21:41:10.321]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:41:10.321]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:41:10.321]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:41:10.321]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:41:10.326]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:41:43.441]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:41:45.854]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:41:45.854]: Info: Trying encoder [nvenc]
+[2025-04-22 21:41:45.854]: Info: Screencasting with KMS
+[2025-04-22 21:41:45.854]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:45.854]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:45.854]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:45.854]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:46.054]: Info: Screencasting with KMS
+[2025-04-22 21:41:46.054]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:46.055]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:46.055]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:46.055]: Error: Couldn't find monitor [0]
+[2025-04-22 21:41:46.255]: Info: Encoder [nvenc] failed
+[2025-04-22 21:41:46.255]: Info: Trying encoder [vaapi]
+[2025-04-22 21:41:46.255]: Info: Screencasting with KMS
+[2025-04-22 21:41:46.255]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:46.255]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:41:46.255]: Info: Found connector ID [121]
+[2025-04-22 21:41:46.256]: Info: Found cursor plane [88]
+[2025-04-22 21:41:46.263]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:41:46.263]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:46.263]: Info: Color depth: 8-bit
+[2025-04-22 21:41:46.263]: Info: Color range: JPEG
+[2025-04-22 21:41:46.273]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:46.273]: Info: Using normal encoding mode
+[2025-04-22 21:41:46.273]: Info: Using default rate control
+[2025-04-22 21:41:46.296]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:41:46.296]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:46.296]: Info: Color depth: 8-bit
+[2025-04-22 21:41:46.296]: Info: Color range: JPEG
+[2025-04-22 21:41:46.307]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:46.308]: Info: Using normal encoding mode
+[2025-04-22 21:41:46.308]: Info: Using default rate control
+[2025-04-22 21:41:46.328]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:41:46.328]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:41:46.328]: Info: Color depth: 8-bit
+[2025-04-22 21:41:46.328]: Info: Color range: JPEG
+[2025-04-22 21:41:46.339]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:46.339]: Error: [av1_vaapi @ 0x7cbf84ae5e80] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:41:46.339]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:41:46.340]: Info: Screencasting with KMS
+[2025-04-22 21:41:46.340]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:41:46.340]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:41:46.340]: Info: Found connector ID [121]
+[2025-04-22 21:41:46.340]: Info: Found cursor plane [88]
+[2025-04-22 21:41:46.345]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:41:46.345]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:41:46.345]: Info: Color depth: 10-bit
+[2025-04-22 21:41:46.345]: Info: Color range: JPEG
+[2025-04-22 21:41:46.355]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:41:46.355]: Info: Using normal encoding mode
+[2025-04-22 21:41:46.355]: Info: Using default rate control
+[2025-04-22 21:41:46.374]: Info: 
+[2025-04-22 21:41:46.374]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:41:46.374]: Info: 
+[2025-04-22 21:41:46.374]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:41:46.374]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:41:46.374]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:41:46.374]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:41:46.379]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:42:40.303]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:42:42.119]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:42:42.119]: Info: Trying encoder [nvenc]
+[2025-04-22 21:42:42.120]: Info: Screencasting with KMS
+[2025-04-22 21:42:42.120]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.120]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:42.120]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.120]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:42.320]: Info: Screencasting with KMS
+[2025-04-22 21:42:42.320]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.321]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:42.321]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.321]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:42.521]: Info: Encoder [nvenc] failed
+[2025-04-22 21:42:42.521]: Info: Trying encoder [vaapi]
+[2025-04-22 21:42:42.521]: Info: Screencasting with KMS
+[2025-04-22 21:42:42.521]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.521]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:42:42.521]: Info: Found connector ID [121]
+[2025-04-22 21:42:42.522]: Info: Found cursor plane [88]
+[2025-04-22 21:42:42.529]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:42:42.529]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:42.529]: Info: Color depth: 8-bit
+[2025-04-22 21:42:42.529]: Info: Color range: JPEG
+[2025-04-22 21:42:42.540]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:42.540]: Info: Using normal encoding mode
+[2025-04-22 21:42:42.540]: Info: Using default rate control
+[2025-04-22 21:42:42.562]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:42:42.562]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:42.562]: Info: Color depth: 8-bit
+[2025-04-22 21:42:42.562]: Info: Color range: JPEG
+[2025-04-22 21:42:42.573]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:42.574]: Info: Using normal encoding mode
+[2025-04-22 21:42:42.574]: Info: Using default rate control
+[2025-04-22 21:42:42.595]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:42:42.595]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:42.595]: Info: Color depth: 8-bit
+[2025-04-22 21:42:42.595]: Info: Color range: JPEG
+[2025-04-22 21:42:42.605]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:42.605]: Error: [av1_vaapi @ 0x7cbf84062480] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:42:42.605]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:42:42.606]: Info: Screencasting with KMS
+[2025-04-22 21:42:42.606]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:42.607]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:42:42.607]: Info: Found connector ID [121]
+[2025-04-22 21:42:42.607]: Info: Found cursor plane [88]
+[2025-04-22 21:42:42.612]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:42:42.612]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:42:42.612]: Info: Color depth: 10-bit
+[2025-04-22 21:42:42.612]: Info: Color range: JPEG
+[2025-04-22 21:42:42.622]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:42.622]: Info: Using normal encoding mode
+[2025-04-22 21:42:42.622]: Info: Using default rate control
+[2025-04-22 21:42:42.642]: Info: 
+[2025-04-22 21:42:42.642]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:42:42.642]: Info: 
+[2025-04-22 21:42:42.642]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:42:42.642]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:42:42.642]: Error: Couldn't find app with ID [1249067275]
+[2025-04-22 21:42:50.533]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:42:50.533]: Info: Trying encoder [nvenc]
+[2025-04-22 21:42:50.533]: Info: Screencasting with KMS
+[2025-04-22 21:42:50.533]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:50.534]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:50.534]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:50.534]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:50.734]: Info: Screencasting with KMS
+[2025-04-22 21:42:50.734]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:50.735]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:50.735]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:50.735]: Error: Couldn't find monitor [0]
+[2025-04-22 21:42:50.935]: Info: Encoder [nvenc] failed
+[2025-04-22 21:42:50.935]: Info: Trying encoder [vaapi]
+[2025-04-22 21:42:50.935]: Info: Screencasting with KMS
+[2025-04-22 21:42:50.935]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:50.935]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:42:50.935]: Info: Found connector ID [121]
+[2025-04-22 21:42:50.936]: Info: Found cursor plane [88]
+[2025-04-22 21:42:50.943]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:42:50.943]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:50.943]: Info: Color depth: 8-bit
+[2025-04-22 21:42:50.943]: Info: Color range: JPEG
+[2025-04-22 21:42:50.953]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:50.953]: Info: Using normal encoding mode
+[2025-04-22 21:42:50.953]: Info: Using default rate control
+[2025-04-22 21:42:50.971]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:42:50.972]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:50.972]: Info: Color depth: 8-bit
+[2025-04-22 21:42:50.972]: Info: Color range: JPEG
+[2025-04-22 21:42:50.982]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:50.982]: Info: Using normal encoding mode
+[2025-04-22 21:42:50.982]: Info: Using default rate control
+[2025-04-22 21:42:51.001]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:42:51.002]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:42:51.002]: Info: Color depth: 8-bit
+[2025-04-22 21:42:51.002]: Info: Color range: JPEG
+[2025-04-22 21:42:51.011]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:51.011]: Error: [av1_vaapi @ 0x7cbf84c8d740] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:42:51.012]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:42:51.013]: Info: Screencasting with KMS
+[2025-04-22 21:42:51.013]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:42:51.013]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:42:51.013]: Info: Found connector ID [121]
+[2025-04-22 21:42:51.013]: Info: Found cursor plane [88]
+[2025-04-22 21:42:51.020]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:42:51.020]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:42:51.020]: Info: Color depth: 10-bit
+[2025-04-22 21:42:51.020]: Info: Color range: JPEG
+[2025-04-22 21:42:51.029]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:42:51.030]: Info: Using normal encoding mode
+[2025-04-22 21:42:51.030]: Info: Using default rate control
+[2025-04-22 21:42:51.052]: Info: 
+[2025-04-22 21:42:51.052]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:42:51.052]: Info: 
+[2025-04-22 21:42:51.052]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:42:51.052]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:42:51.052]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:42:51.052]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:42:51.057]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:43:39.584]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:43:48.197]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:43:48.197]: Info: Trying encoder [nvenc]
+[2025-04-22 21:43:48.197]: Info: Screencasting with KMS
+[2025-04-22 21:43:48.197]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.197]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:48.197]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.198]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:48.398]: Info: Screencasting with KMS
+[2025-04-22 21:43:48.398]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.398]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:48.398]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.399]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:48.599]: Info: Encoder [nvenc] failed
+[2025-04-22 21:43:48.599]: Info: Trying encoder [vaapi]
+[2025-04-22 21:43:48.599]: Info: Screencasting with KMS
+[2025-04-22 21:43:48.599]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.599]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:43:48.599]: Info: Found connector ID [121]
+[2025-04-22 21:43:48.599]: Info: Found cursor plane [88]
+[2025-04-22 21:43:48.607]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:43:48.607]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:48.607]: Info: Color depth: 8-bit
+[2025-04-22 21:43:48.607]: Info: Color range: JPEG
+[2025-04-22 21:43:48.620]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:48.620]: Info: Using normal encoding mode
+[2025-04-22 21:43:48.620]: Info: Using default rate control
+[2025-04-22 21:43:48.642]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:43:48.643]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:48.643]: Info: Color depth: 8-bit
+[2025-04-22 21:43:48.643]: Info: Color range: JPEG
+[2025-04-22 21:43:48.654]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:48.654]: Info: Using normal encoding mode
+[2025-04-22 21:43:48.654]: Info: Using default rate control
+[2025-04-22 21:43:48.676]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:43:48.676]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:48.676]: Info: Color depth: 8-bit
+[2025-04-22 21:43:48.676]: Info: Color range: JPEG
+[2025-04-22 21:43:48.686]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:48.686]: Error: [av1_vaapi @ 0x7cbf84c8d740] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:43:48.686]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:43:48.688]: Info: Screencasting with KMS
+[2025-04-22 21:43:48.688]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:48.688]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:43:48.688]: Info: Found connector ID [121]
+[2025-04-22 21:43:48.688]: Info: Found cursor plane [88]
+[2025-04-22 21:43:48.695]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:43:48.695]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:43:48.695]: Info: Color depth: 10-bit
+[2025-04-22 21:43:48.695]: Info: Color range: JPEG
+[2025-04-22 21:43:48.705]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:48.705]: Info: Using normal encoding mode
+[2025-04-22 21:43:48.705]: Info: Using default rate control
+[2025-04-22 21:43:48.727]: Info: 
+[2025-04-22 21:43:48.727]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:43:48.727]: Info: 
+[2025-04-22 21:43:48.727]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:43:48.727]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:43:48.727]: Error: Couldn't find app with ID [1485956913]
+[2025-04-22 21:43:52.077]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:43:52.077]: Info: Trying encoder [nvenc]
+[2025-04-22 21:43:52.077]: Info: Screencasting with KMS
+[2025-04-22 21:43:52.077]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.077]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:52.077]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.078]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:52.278]: Info: Screencasting with KMS
+[2025-04-22 21:43:52.278]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.278]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:52.278]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.279]: Error: Couldn't find monitor [0]
+[2025-04-22 21:43:52.479]: Info: Encoder [nvenc] failed
+[2025-04-22 21:43:52.479]: Info: Trying encoder [vaapi]
+[2025-04-22 21:43:52.479]: Info: Screencasting with KMS
+[2025-04-22 21:43:52.479]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.479]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:43:52.479]: Info: Found connector ID [121]
+[2025-04-22 21:43:52.479]: Info: Found cursor plane [88]
+[2025-04-22 21:43:52.487]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:43:52.487]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:52.487]: Info: Color depth: 8-bit
+[2025-04-22 21:43:52.487]: Info: Color range: JPEG
+[2025-04-22 21:43:52.498]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:52.498]: Info: Using normal encoding mode
+[2025-04-22 21:43:52.498]: Info: Using default rate control
+[2025-04-22 21:43:52.516]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:43:52.516]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:52.516]: Info: Color depth: 8-bit
+[2025-04-22 21:43:52.516]: Info: Color range: JPEG
+[2025-04-22 21:43:52.527]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:52.527]: Info: Using normal encoding mode
+[2025-04-22 21:43:52.527]: Info: Using default rate control
+[2025-04-22 21:43:52.549]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:43:52.549]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:43:52.549]: Info: Color depth: 8-bit
+[2025-04-22 21:43:52.549]: Info: Color range: JPEG
+[2025-04-22 21:43:52.559]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:52.559]: Error: [av1_vaapi @ 0x7cbf84fd5d00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:43:52.559]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:43:52.561]: Info: Screencasting with KMS
+[2025-04-22 21:43:52.561]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:43:52.561]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:43:52.561]: Info: Found connector ID [121]
+[2025-04-22 21:43:52.561]: Info: Found cursor plane [88]
+[2025-04-22 21:43:52.566]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:43:52.566]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:43:52.566]: Info: Color depth: 10-bit
+[2025-04-22 21:43:52.566]: Info: Color range: JPEG
+[2025-04-22 21:43:52.578]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:43:52.578]: Info: Using normal encoding mode
+[2025-04-22 21:43:52.578]: Info: Using default rate control
+[2025-04-22 21:43:52.600]: Info: 
+[2025-04-22 21:43:52.600]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:43:52.600]: Info: 
+[2025-04-22 21:43:52.600]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:43:52.600]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:43:52.600]: Error: Unable to find executable [Obsidian]. Is it in your PATH?
+[2025-04-22 21:43:52.600]: Info: Executing: [Obsidian] in [""]
+[2025-04-22 21:43:52.605]: Warning: Couldn't run [Obsidian]: System: No such file or directory
+[2025-04-22 21:45:06.241]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:45:11.687]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:45:11.687]: Info: Trying encoder [nvenc]
+[2025-04-22 21:45:11.687]: Info: Screencasting with KMS
+[2025-04-22 21:45:11.687]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:11.687]: Error: Couldn't find monitor [0]
+[2025-04-22 21:45:11.687]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:11.687]: Error: Couldn't find monitor [0]
+[2025-04-22 21:45:11.887]: Info: Screencasting with KMS
+[2025-04-22 21:45:11.888]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:11.888]: Error: Couldn't find monitor [0]
+[2025-04-22 21:45:11.888]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:11.888]: Error: Couldn't find monitor [0]
+[2025-04-22 21:45:12.088]: Info: Encoder [nvenc] failed
+[2025-04-22 21:45:12.088]: Info: Trying encoder [vaapi]
+[2025-04-22 21:45:12.088]: Info: Screencasting with KMS
+[2025-04-22 21:45:12.088]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:12.088]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:45:12.089]: Info: Found connector ID [121]
+[2025-04-22 21:45:12.089]: Info: Found cursor plane [88]
+[2025-04-22 21:45:12.097]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:45:12.097]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:45:12.097]: Info: Color depth: 8-bit
+[2025-04-22 21:45:12.097]: Info: Color range: JPEG
+[2025-04-22 21:45:12.108]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:45:12.109]: Info: Using normal encoding mode
+[2025-04-22 21:45:12.109]: Info: Using default rate control
+[2025-04-22 21:45:12.128]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:45:12.128]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:45:12.128]: Info: Color depth: 8-bit
+[2025-04-22 21:45:12.128]: Info: Color range: JPEG
+[2025-04-22 21:45:12.140]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:45:12.140]: Info: Using normal encoding mode
+[2025-04-22 21:45:12.140]: Info: Using default rate control
+[2025-04-22 21:45:12.160]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:45:12.160]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:45:12.160]: Info: Color depth: 8-bit
+[2025-04-22 21:45:12.160]: Info: Color range: JPEG
+[2025-04-22 21:45:12.170]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:45:12.171]: Error: [av1_vaapi @ 0x7cbf84fd51c0] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:45:12.171]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:45:12.173]: Info: Screencasting with KMS
+[2025-04-22 21:45:12.173]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:12.173]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:45:12.173]: Info: Found connector ID [121]
+[2025-04-22 21:45:12.173]: Info: Found cursor plane [88]
+[2025-04-22 21:45:12.179]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:45:12.179]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:45:12.179]: Info: Color depth: 10-bit
+[2025-04-22 21:45:12.179]: Info: Color range: JPEG
+[2025-04-22 21:45:12.190]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:45:12.190]: Info: Using normal encoding mode
+[2025-04-22 21:45:12.190]: Info: Using default rate control
+[2025-04-22 21:45:12.212]: Info: 
+[2025-04-22 21:45:12.212]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:45:12.212]: Info: 
+[2025-04-22 21:45:12.212]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:45:12.212]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:45:12.212]: Info: Executing: [obsidian] in ["/usr/bin"]
+[2025-04-22 21:45:12.333]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:45:12.384]: Info: CLIENT CONNECTED
+[2025-04-22 21:45:12.387]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:12.387]: Info: Found display [wayland-1]
+[2025-04-22 21:45:12.387]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:45:12.387]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:45:12.387]: Info: Resolution: 3440x1440
+[2025-04-22 21:45:12.387]: Info: Name: DP-2
+[2025-04-22 21:45:12.387]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:45:12.387]: Info: Offset: 0x0
+[2025-04-22 21:45:12.387]: Info: Logical size: 3440x1440
+[2025-04-22 21:45:12.387]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:45:12.387]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:45:12.387]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:45:12.387]: Info: Screencasting with KMS
+[2025-04-22 21:45:12.387]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:45:12.387]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:45:12.387]: Info: Found connector ID [121]
+[2025-04-22 21:45:12.388]: Info: Found cursor plane [88]
+[2025-04-22 21:45:12.395]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:45:12.395]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:45:12.395]: Info: Color depth: 8-bit
+[2025-04-22 21:45:12.395]: Info: Color range: MPEG
+[2025-04-22 21:45:12.409]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:45:12.409]: Info: Using normal encoding mode
+[2025-04-22 21:45:12.409]: Info: Using default rate control
+[2025-04-22 21:45:12.851]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:45:12.851]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:45:12.873]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:45:36.763]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:45:36.767]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:45:41.646]: Info: Successfully requested the app to exit. Waiting up to 5 seconds for it to close.
+[2025-04-22 21:45:46.646]: Warning: App did not fully exit within the timeout. Terminating the app's remaining processes.
+[2025-04-22 21:46:06.656]: Info: /home/adam/.config/sunshine/apps.json
+[2025-04-22 21:46:08.741]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:46:08.741]: Info: Trying encoder [nvenc]
+[2025-04-22 21:46:08.741]: Info: Screencasting with KMS
+[2025-04-22 21:46:08.741]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:08.741]: Error: Couldn't find monitor [0]
+[2025-04-22 21:46:08.741]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:08.742]: Error: Couldn't find monitor [0]
+[2025-04-22 21:46:08.942]: Info: Screencasting with KMS
+[2025-04-22 21:46:08.942]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:08.942]: Error: Couldn't find monitor [0]
+[2025-04-22 21:46:08.942]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:08.943]: Error: Couldn't find monitor [0]
+[2025-04-22 21:46:09.143]: Info: Encoder [nvenc] failed
+[2025-04-22 21:46:09.143]: Info: Trying encoder [vaapi]
+[2025-04-22 21:46:09.143]: Info: Screencasting with KMS
+[2025-04-22 21:46:09.143]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:09.143]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:46:09.143]: Info: Found connector ID [121]
+[2025-04-22 21:46:09.143]: Info: Found cursor plane [88]
+[2025-04-22 21:46:09.151]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:46:09.151]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:46:09.151]: Info: Color depth: 8-bit
+[2025-04-22 21:46:09.151]: Info: Color range: JPEG
+[2025-04-22 21:46:09.164]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:46:09.164]: Info: Using normal encoding mode
+[2025-04-22 21:46:09.164]: Info: Using default rate control
+[2025-04-22 21:46:09.187]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:46:09.187]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:46:09.187]: Info: Color depth: 8-bit
+[2025-04-22 21:46:09.187]: Info: Color range: JPEG
+[2025-04-22 21:46:09.199]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:46:09.199]: Info: Using normal encoding mode
+[2025-04-22 21:46:09.199]: Info: Using default rate control
+[2025-04-22 21:46:09.221]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:46:09.221]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:46:09.221]: Info: Color depth: 8-bit
+[2025-04-22 21:46:09.221]: Info: Color range: JPEG
+[2025-04-22 21:46:09.233]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:46:09.233]: Error: [av1_vaapi @ 0x7cbf84ace2c0] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:46:09.233]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:46:09.234]: Info: Screencasting with KMS
+[2025-04-22 21:46:09.234]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:09.234]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:46:09.234]: Info: Found connector ID [121]
+[2025-04-22 21:46:09.234]: Info: Found cursor plane [88]
+[2025-04-22 21:46:09.240]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:46:09.240]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:46:09.240]: Info: Color depth: 10-bit
+[2025-04-22 21:46:09.240]: Info: Color range: JPEG
+[2025-04-22 21:46:09.251]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:46:09.251]: Info: Using normal encoding mode
+[2025-04-22 21:46:09.251]: Info: Using default rate control
+[2025-04-22 21:46:09.273]: Info: 
+[2025-04-22 21:46:09.274]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:46:09.274]: Info: 
+[2025-04-22 21:46:09.274]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:46:09.274]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:46:09.274]: Info: Executing: [obsidian] in ["/home/adam"]
+[2025-04-22 21:46:09.472]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:46:09.528]: Info: CLIENT CONNECTED
+[2025-04-22 21:46:09.530]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:09.530]: Info: Found display [wayland-1]
+[2025-04-22 21:46:09.530]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:46:09.531]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:46:09.531]: Info: Resolution: 3440x1440
+[2025-04-22 21:46:09.531]: Info: Name: DP-2
+[2025-04-22 21:46:09.531]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:46:09.531]: Info: Offset: 0x0
+[2025-04-22 21:46:09.531]: Info: Logical size: 3440x1440
+[2025-04-22 21:46:09.531]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:46:09.531]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:46:09.531]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:46:09.531]: Info: Screencasting with KMS
+[2025-04-22 21:46:09.531]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:46:09.531]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:46:09.531]: Info: Found connector ID [121]
+[2025-04-22 21:46:09.531]: Info: Found cursor plane [88]
+[2025-04-22 21:46:09.538]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:46:09.538]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:46:09.538]: Info: Color depth: 8-bit
+[2025-04-22 21:46:09.538]: Info: Color range: MPEG
+[2025-04-22 21:46:09.554]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:46:09.554]: Info: Using normal encoding mode
+[2025-04-22 21:46:09.554]: Info: Using default rate control
+[2025-04-22 21:46:09.991]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:46:09.991]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:46:10.012]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:46:30.950]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:46:30.955]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:46:34.089]: Info: Successfully requested the app to exit. Waiting up to 5 seconds for it to close.
+[2025-04-22 21:46:39.090]: Warning: App did not fully exit within the timeout. Terminating the app's remaining processes.
+[2025-04-22 21:51:17.149]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:51:17.149]: Info: Trying encoder [nvenc]
+[2025-04-22 21:51:17.149]: Info: Screencasting with KMS
+[2025-04-22 21:51:17.149]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.150]: Error: Couldn't find monitor [0]
+[2025-04-22 21:51:17.150]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.150]: Error: Couldn't find monitor [0]
+[2025-04-22 21:51:17.350]: Info: Screencasting with KMS
+[2025-04-22 21:51:17.350]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.351]: Error: Couldn't find monitor [0]
+[2025-04-22 21:51:17.351]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.351]: Error: Couldn't find monitor [0]
+[2025-04-22 21:51:17.551]: Info: Encoder [nvenc] failed
+[2025-04-22 21:51:17.551]: Info: Trying encoder [vaapi]
+[2025-04-22 21:51:17.551]: Info: Screencasting with KMS
+[2025-04-22 21:51:17.551]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.551]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:51:17.551]: Info: Found connector ID [121]
+[2025-04-22 21:51:17.551]: Info: Found cursor plane [88]
+[2025-04-22 21:51:17.559]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:51:17.559]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:51:17.559]: Info: Color depth: 8-bit
+[2025-04-22 21:51:17.559]: Info: Color range: JPEG
+[2025-04-22 21:51:17.571]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:51:17.571]: Info: Using normal encoding mode
+[2025-04-22 21:51:17.571]: Info: Using default rate control
+[2025-04-22 21:51:17.594]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:51:17.594]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:51:17.594]: Info: Color depth: 8-bit
+[2025-04-22 21:51:17.594]: Info: Color range: JPEG
+[2025-04-22 21:51:17.605]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:51:17.605]: Info: Using normal encoding mode
+[2025-04-22 21:51:17.605]: Info: Using default rate control
+[2025-04-22 21:51:17.624]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:51:17.624]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:51:17.624]: Info: Color depth: 8-bit
+[2025-04-22 21:51:17.624]: Info: Color range: JPEG
+[2025-04-22 21:51:17.635]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:51:17.635]: Error: [av1_vaapi @ 0x7cbf8404b0c0] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:51:17.635]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:51:17.636]: Info: Screencasting with KMS
+[2025-04-22 21:51:17.636]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.636]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:51:17.636]: Info: Found connector ID [121]
+[2025-04-22 21:51:17.637]: Info: Found cursor plane [88]
+[2025-04-22 21:51:17.641]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:51:17.641]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:51:17.641]: Info: Color depth: 10-bit
+[2025-04-22 21:51:17.641]: Info: Color range: JPEG
+[2025-04-22 21:51:17.651]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:51:17.651]: Info: Using normal encoding mode
+[2025-04-22 21:51:17.651]: Info: Using default rate control
+[2025-04-22 21:51:17.673]: Info: 
+[2025-04-22 21:51:17.673]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:51:17.673]: Info: 
+[2025-04-22 21:51:17.673]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:51:17.673]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:51:17.673]: Info: Executing [Desktop]
+[2025-04-22 21:51:17.778]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:51:17.830]: Info: CLIENT CONNECTED
+[2025-04-22 21:51:17.832]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.833]: Info: Found display [wayland-1]
+[2025-04-22 21:51:17.833]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:51:17.833]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:51:17.833]: Info: Resolution: 1920x1080
+[2025-04-22 21:51:17.833]: Info: Name: DP-2
+[2025-04-22 21:51:17.833]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:51:17.833]: Info: Offset: 0x0
+[2025-04-22 21:51:17.833]: Info: Logical size: 1920x1080
+[2025-04-22 21:51:17.833]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:51:17.833]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:51:17.833]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:51:17.833]: Info: Screencasting with KMS
+[2025-04-22 21:51:17.833]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:51:17.833]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:51:17.833]: Info: Found connector ID [121]
+[2025-04-22 21:51:17.833]: Info: Found cursor plane [88]
+[2025-04-22 21:51:17.840]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:51:17.840]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:51:17.840]: Info: Color depth: 8-bit
+[2025-04-22 21:51:17.840]: Info: Color range: MPEG
+[2025-04-22 21:51:17.853]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:51:17.853]: Info: Using normal encoding mode
+[2025-04-22 21:51:17.853]: Info: Using default rate control
+[2025-04-22 21:51:18.304]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:51:18.304]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:51:18.325]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:51:29.751]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:51:29.754]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:52:21.403]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:52:21.403]: Info: Trying encoder [nvenc]
+[2025-04-22 21:52:21.403]: Info: Screencasting with KMS
+[2025-04-22 21:52:21.403]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.403]: Error: Couldn't find monitor [0]
+[2025-04-22 21:52:21.403]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.403]: Error: Couldn't find monitor [0]
+[2025-04-22 21:52:21.604]: Info: Screencasting with KMS
+[2025-04-22 21:52:21.604]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.604]: Error: Couldn't find monitor [0]
+[2025-04-22 21:52:21.604]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.604]: Error: Couldn't find monitor [0]
+[2025-04-22 21:52:21.804]: Info: Encoder [nvenc] failed
+[2025-04-22 21:52:21.804]: Info: Trying encoder [vaapi]
+[2025-04-22 21:52:21.804]: Info: Screencasting with KMS
+[2025-04-22 21:52:21.804]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.804]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:52:21.804]: Info: Found connector ID [121]
+[2025-04-22 21:52:21.805]: Info: Found cursor plane [88]
+[2025-04-22 21:52:21.813]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:52:21.813]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:52:21.813]: Info: Color depth: 8-bit
+[2025-04-22 21:52:21.813]: Info: Color range: JPEG
+[2025-04-22 21:52:21.823]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:52:21.823]: Info: Using normal encoding mode
+[2025-04-22 21:52:21.823]: Info: Using default rate control
+[2025-04-22 21:52:21.842]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:52:21.842]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:52:21.842]: Info: Color depth: 8-bit
+[2025-04-22 21:52:21.842]: Info: Color range: JPEG
+[2025-04-22 21:52:21.853]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:52:21.853]: Info: Using normal encoding mode
+[2025-04-22 21:52:21.853]: Info: Using default rate control
+[2025-04-22 21:52:21.871]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:52:21.872]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:52:21.872]: Info: Color depth: 8-bit
+[2025-04-22 21:52:21.872]: Info: Color range: JPEG
+[2025-04-22 21:52:21.882]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:52:21.882]: Error: [av1_vaapi @ 0x7cbf8427fc40] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:52:21.882]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:52:21.883]: Info: Screencasting with KMS
+[2025-04-22 21:52:21.883]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:21.883]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:52:21.883]: Info: Found connector ID [121]
+[2025-04-22 21:52:21.884]: Info: Found cursor plane [88]
+[2025-04-22 21:52:21.889]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:52:21.889]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:52:21.889]: Info: Color depth: 10-bit
+[2025-04-22 21:52:21.889]: Info: Color range: JPEG
+[2025-04-22 21:52:21.899]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:52:21.899]: Info: Using normal encoding mode
+[2025-04-22 21:52:21.899]: Info: Using default rate control
+[2025-04-22 21:52:21.917]: Info: 
+[2025-04-22 21:52:21.917]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:52:21.917]: Info: 
+[2025-04-22 21:52:21.917]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:52:21.917]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:52:21.917]: Info: Executing [Desktop]
+[2025-04-22 21:52:21.975]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:52:22.015]: Info: CLIENT CONNECTED
+[2025-04-22 21:52:22.018]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:22.019]: Info: Found display [wayland-1]
+[2025-04-22 21:52:22.019]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:52:22.019]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:52:22.019]: Info: Resolution: 3440x1440
+[2025-04-22 21:52:22.019]: Info: Name: DP-2
+[2025-04-22 21:52:22.019]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:52:22.019]: Info: Offset: 0x0
+[2025-04-22 21:52:22.019]: Info: Logical size: 3440x1440
+[2025-04-22 21:52:22.019]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:52:22.019]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:52:22.019]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:52:22.019]: Info: Screencasting with KMS
+[2025-04-22 21:52:22.019]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:52:22.019]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:52:22.019]: Info: Found connector ID [121]
+[2025-04-22 21:52:22.019]: Info: Found cursor plane [88]
+[2025-04-22 21:52:22.026]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:52:22.026]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:52:22.026]: Info: Color depth: 8-bit
+[2025-04-22 21:52:22.026]: Info: Color range: MPEG
+[2025-04-22 21:52:22.038]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:52:22.038]: Info: Using normal encoding mode
+[2025-04-22 21:52:22.038]: Info: Using default rate control
+[2025-04-22 21:52:22.502]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:52:22.502]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:52:22.522]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:52:34.559]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:52:34.559]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:53:46.964]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:53:46.964]: Info: Trying encoder [nvenc]
+[2025-04-22 21:53:46.964]: Info: Screencasting with KMS
+[2025-04-22 21:53:46.964]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:46.964]: Error: Couldn't find monitor [0]
+[2025-04-22 21:53:46.964]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:46.965]: Error: Couldn't find monitor [0]
+[2025-04-22 21:53:47.165]: Info: Screencasting with KMS
+[2025-04-22 21:53:47.165]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.165]: Error: Couldn't find monitor [0]
+[2025-04-22 21:53:47.165]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.165]: Error: Couldn't find monitor [0]
+[2025-04-22 21:53:47.366]: Info: Encoder [nvenc] failed
+[2025-04-22 21:53:47.366]: Info: Trying encoder [vaapi]
+[2025-04-22 21:53:47.366]: Info: Screencasting with KMS
+[2025-04-22 21:53:47.366]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.366]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:53:47.366]: Info: Found connector ID [121]
+[2025-04-22 21:53:47.366]: Info: Found cursor plane [88]
+[2025-04-22 21:53:47.372]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:53:47.372]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:53:47.372]: Info: Color depth: 8-bit
+[2025-04-22 21:53:47.372]: Info: Color range: JPEG
+[2025-04-22 21:53:47.381]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:53:47.382]: Info: Using normal encoding mode
+[2025-04-22 21:53:47.382]: Info: Using default rate control
+[2025-04-22 21:53:47.402]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:53:47.402]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:53:47.402]: Info: Color depth: 8-bit
+[2025-04-22 21:53:47.402]: Info: Color range: JPEG
+[2025-04-22 21:53:47.413]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:53:47.413]: Info: Using normal encoding mode
+[2025-04-22 21:53:47.413]: Info: Using default rate control
+[2025-04-22 21:53:47.434]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:53:47.434]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:53:47.434]: Info: Color depth: 8-bit
+[2025-04-22 21:53:47.434]: Info: Color range: JPEG
+[2025-04-22 21:53:47.444]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:53:47.444]: Error: [av1_vaapi @ 0x7cbf84061dc0] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:53:47.444]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:53:47.446]: Info: Screencasting with KMS
+[2025-04-22 21:53:47.446]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.446]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:53:47.446]: Info: Found connector ID [121]
+[2025-04-22 21:53:47.446]: Info: Found cursor plane [88]
+[2025-04-22 21:53:47.452]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:53:47.452]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:53:47.452]: Info: Color depth: 10-bit
+[2025-04-22 21:53:47.452]: Info: Color range: JPEG
+[2025-04-22 21:53:47.462]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:53:47.462]: Info: Using normal encoding mode
+[2025-04-22 21:53:47.462]: Info: Using default rate control
+[2025-04-22 21:53:47.482]: Info: 
+[2025-04-22 21:53:47.482]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:53:47.482]: Info: 
+[2025-04-22 21:53:47.482]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:53:47.482]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:53:47.482]: Info: Executing [Desktop]
+[2025-04-22 21:53:47.586]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:53:47.634]: Info: CLIENT CONNECTED
+[2025-04-22 21:53:47.635]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.635]: Info: Found display [wayland-1]
+[2025-04-22 21:53:47.635]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:53:47.635]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:53:47.635]: Info: Resolution: 1640x2360
+[2025-04-22 21:53:47.635]: Info: Name: DP-2
+[2025-04-22 21:53:47.635]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:53:47.635]: Info: Offset: 0x0
+[2025-04-22 21:53:47.635]: Info: Logical size: 1640x2360
+[2025-04-22 21:53:47.635]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:53:47.635]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:53:47.635]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:53:47.635]: Info: Screencasting with KMS
+[2025-04-22 21:53:47.635]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:53:47.635]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:53:47.636]: Info: Found connector ID [121]
+[2025-04-22 21:53:47.636]: Info: Found cursor plane [88]
+[2025-04-22 21:53:47.642]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:53:47.642]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:53:47.642]: Info: Color depth: 8-bit
+[2025-04-22 21:53:47.642]: Info: Color range: MPEG
+[2025-04-22 21:53:47.654]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:53:47.655]: Info: Using normal encoding mode
+[2025-04-22 21:53:47.655]: Info: Using default rate control
+[2025-04-22 21:53:48.121]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:53:48.121]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:53:48.142]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:54:06.673]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:54:06.675]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:54:44.138]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:54:44.138]: Info: Trying encoder [nvenc]
+[2025-04-22 21:54:44.138]: Info: Screencasting with KMS
+[2025-04-22 21:54:44.138]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.138]: Error: Couldn't find monitor [0]
+[2025-04-22 21:54:44.138]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.138]: Error: Couldn't find monitor [0]
+[2025-04-22 21:54:44.338]: Info: Screencasting with KMS
+[2025-04-22 21:54:44.338]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.339]: Error: Couldn't find monitor [0]
+[2025-04-22 21:54:44.339]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.339]: Error: Couldn't find monitor [0]
+[2025-04-22 21:54:44.539]: Info: Encoder [nvenc] failed
+[2025-04-22 21:54:44.539]: Info: Trying encoder [vaapi]
+[2025-04-22 21:54:44.539]: Info: Screencasting with KMS
+[2025-04-22 21:54:44.539]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.539]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:54:44.539]: Info: Found connector ID [121]
+[2025-04-22 21:54:44.540]: Info: Found cursor plane [88]
+[2025-04-22 21:54:44.546]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:54:44.546]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:54:44.546]: Info: Color depth: 8-bit
+[2025-04-22 21:54:44.546]: Info: Color range: JPEG
+[2025-04-22 21:54:44.556]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:54:44.556]: Info: Using normal encoding mode
+[2025-04-22 21:54:44.556]: Info: Using default rate control
+[2025-04-22 21:54:44.573]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:54:44.574]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:54:44.574]: Info: Color depth: 8-bit
+[2025-04-22 21:54:44.574]: Info: Color range: JPEG
+[2025-04-22 21:54:44.584]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:54:44.584]: Info: Using normal encoding mode
+[2025-04-22 21:54:44.584]: Info: Using default rate control
+[2025-04-22 21:54:44.604]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:54:44.605]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:54:44.605]: Info: Color depth: 8-bit
+[2025-04-22 21:54:44.605]: Info: Color range: JPEG
+[2025-04-22 21:54:44.615]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:54:44.615]: Error: [av1_vaapi @ 0x7cbf84c6a200] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:54:44.615]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:54:44.616]: Info: Screencasting with KMS
+[2025-04-22 21:54:44.616]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.616]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:54:44.616]: Info: Found connector ID [121]
+[2025-04-22 21:54:44.617]: Info: Found cursor plane [88]
+[2025-04-22 21:54:44.622]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:54:44.622]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:54:44.622]: Info: Color depth: 10-bit
+[2025-04-22 21:54:44.622]: Info: Color range: JPEG
+[2025-04-22 21:54:44.632]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:54:44.632]: Info: Using normal encoding mode
+[2025-04-22 21:54:44.632]: Info: Using default rate control
+[2025-04-22 21:54:44.652]: Info: 
+[2025-04-22 21:54:44.652]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:54:44.652]: Info: 
+[2025-04-22 21:54:44.652]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:54:44.652]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:54:44.652]: Info: Executing [Desktop]
+[2025-04-22 21:54:44.710]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:54:44.758]: Info: CLIENT CONNECTED
+[2025-04-22 21:54:44.760]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.760]: Info: Found display [wayland-1]
+[2025-04-22 21:54:44.760]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:54:44.761]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:54:44.761]: Info: Resolution: 2360x1640
+[2025-04-22 21:54:44.761]: Info: Name: DP-2
+[2025-04-22 21:54:44.761]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:54:44.761]: Info: Offset: 0x0
+[2025-04-22 21:54:44.761]: Info: Logical size: 2360x1640
+[2025-04-22 21:54:44.761]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:54:44.761]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:54:44.761]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:54:44.761]: Info: Screencasting with KMS
+[2025-04-22 21:54:44.761]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:54:44.761]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:54:44.761]: Info: Found connector ID [121]
+[2025-04-22 21:54:44.761]: Info: Found cursor plane [88]
+[2025-04-22 21:54:44.768]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:54:44.768]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:54:44.768]: Info: Color depth: 8-bit
+[2025-04-22 21:54:44.768]: Info: Color range: MPEG
+[2025-04-22 21:54:44.780]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:54:44.780]: Info: Using normal encoding mode
+[2025-04-22 21:54:44.780]: Info: Using default rate control
+[2025-04-22 21:54:45.235]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:54:45.235]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:54:45.256]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:55:33.201]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:55:33.205]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:55:36.995]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:55:36.995]: Info: Trying encoder [nvenc]
+[2025-04-22 21:55:36.995]: Info: Screencasting with KMS
+[2025-04-22 21:55:36.995]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:36.996]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:36.996]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:36.996]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:37.196]: Info: Screencasting with KMS
+[2025-04-22 21:55:37.196]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.196]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:37.196]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.197]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:37.397]: Info: Encoder [nvenc] failed
+[2025-04-22 21:55:37.397]: Info: Trying encoder [vaapi]
+[2025-04-22 21:55:37.397]: Info: Screencasting with KMS
+[2025-04-22 21:55:37.397]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.397]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:37.397]: Info: Found connector ID [121]
+[2025-04-22 21:55:37.397]: Info: Found cursor plane [88]
+[2025-04-22 21:55:37.406]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:55:37.406]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:37.406]: Info: Color depth: 8-bit
+[2025-04-22 21:55:37.406]: Info: Color range: JPEG
+[2025-04-22 21:55:37.416]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:37.416]: Info: Using normal encoding mode
+[2025-04-22 21:55:37.416]: Info: Using default rate control
+[2025-04-22 21:55:37.435]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:37.435]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:37.435]: Info: Color depth: 8-bit
+[2025-04-22 21:55:37.435]: Info: Color range: JPEG
+[2025-04-22 21:55:37.446]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:37.446]: Info: Using normal encoding mode
+[2025-04-22 21:55:37.446]: Info: Using default rate control
+[2025-04-22 21:55:37.465]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:55:37.465]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:37.465]: Info: Color depth: 8-bit
+[2025-04-22 21:55:37.465]: Info: Color range: JPEG
+[2025-04-22 21:55:37.475]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:37.475]: Error: [av1_vaapi @ 0x7cbf84112340] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:55:37.475]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:55:37.477]: Info: Screencasting with KMS
+[2025-04-22 21:55:37.477]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.477]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:37.477]: Info: Found connector ID [121]
+[2025-04-22 21:55:37.477]: Info: Found cursor plane [88]
+[2025-04-22 21:55:37.483]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:37.483]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:55:37.483]: Info: Color depth: 10-bit
+[2025-04-22 21:55:37.483]: Info: Color range: JPEG
+[2025-04-22 21:55:37.492]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:37.492]: Info: Using normal encoding mode
+[2025-04-22 21:55:37.492]: Info: Using default rate control
+[2025-04-22 21:55:37.511]: Info: 
+[2025-04-22 21:55:37.511]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:55:37.511]: Info: 
+[2025-04-22 21:55:37.511]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:55:37.511]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:55:37.665]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:55:37.710]: Info: CLIENT CONNECTED
+[2025-04-22 21:55:37.711]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.711]: Info: Found display [wayland-1]
+[2025-04-22 21:55:37.711]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:55:37.711]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:55:37.711]: Info: Resolution: 2360x1640
+[2025-04-22 21:55:37.711]: Info: Name: DP-2
+[2025-04-22 21:55:37.711]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:55:37.711]: Info: Offset: 0x0
+[2025-04-22 21:55:37.711]: Info: Logical size: 2360x1640
+[2025-04-22 21:55:37.711]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:55:37.711]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:55:37.711]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:55:37.711]: Info: Screencasting with KMS
+[2025-04-22 21:55:37.712]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:37.712]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:37.712]: Info: Found connector ID [121]
+[2025-04-22 21:55:37.712]: Info: Found cursor plane [88]
+[2025-04-22 21:55:37.718]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:37.718]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:37.718]: Info: Color depth: 8-bit
+[2025-04-22 21:55:37.718]: Info: Color range: MPEG
+[2025-04-22 21:55:37.731]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:37.732]: Info: Using normal encoding mode
+[2025-04-22 21:55:37.732]: Info: Using default rate control
+[2025-04-22 21:55:38.196]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:55:38.196]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:55:38.218]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:55:40.666]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:55:40.667]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:55:53.273]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:55:53.273]: Info: Trying encoder [nvenc]
+[2025-04-22 21:55:53.273]: Info: Screencasting with KMS
+[2025-04-22 21:55:53.273]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.273]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:53.273]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.273]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:53.474]: Info: Screencasting with KMS
+[2025-04-22 21:55:53.474]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.474]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:53.474]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.474]: Error: Couldn't find monitor [0]
+[2025-04-22 21:55:53.674]: Info: Encoder [nvenc] failed
+[2025-04-22 21:55:53.674]: Info: Trying encoder [vaapi]
+[2025-04-22 21:55:53.674]: Info: Screencasting with KMS
+[2025-04-22 21:55:53.674]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.674]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:53.674]: Info: Found connector ID [121]
+[2025-04-22 21:55:53.675]: Info: Found cursor plane [88]
+[2025-04-22 21:55:53.681]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:55:53.681]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:53.681]: Info: Color depth: 8-bit
+[2025-04-22 21:55:53.682]: Info: Color range: JPEG
+[2025-04-22 21:55:53.691]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:53.691]: Info: Using normal encoding mode
+[2025-04-22 21:55:53.691]: Info: Using default rate control
+[2025-04-22 21:55:53.708]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:53.708]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:53.708]: Info: Color depth: 8-bit
+[2025-04-22 21:55:53.708]: Info: Color range: JPEG
+[2025-04-22 21:55:53.720]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:53.720]: Info: Using normal encoding mode
+[2025-04-22 21:55:53.720]: Info: Using default rate control
+[2025-04-22 21:55:53.740]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:55:53.740]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:53.740]: Info: Color depth: 8-bit
+[2025-04-22 21:55:53.740]: Info: Color range: JPEG
+[2025-04-22 21:55:53.749]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:53.749]: Error: [av1_vaapi @ 0x7cbf845c5f40] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:55:53.749]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:55:53.751]: Info: Screencasting with KMS
+[2025-04-22 21:55:53.751]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:53.751]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:53.751]: Info: Found connector ID [121]
+[2025-04-22 21:55:53.751]: Info: Found cursor plane [88]
+[2025-04-22 21:55:53.756]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:53.756]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:55:53.756]: Info: Color depth: 10-bit
+[2025-04-22 21:55:53.756]: Info: Color range: JPEG
+[2025-04-22 21:55:53.767]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:53.767]: Info: Using normal encoding mode
+[2025-04-22 21:55:53.767]: Info: Using default rate control
+[2025-04-22 21:55:53.787]: Info: 
+[2025-04-22 21:55:53.787]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:55:53.787]: Info: 
+[2025-04-22 21:55:53.787]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:55:53.787]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:55:53.787]: Info: Executing [Desktop]
+[2025-04-22 21:55:54.052]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:55:54.104]: Info: CLIENT CONNECTED
+[2025-04-22 21:55:54.107]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:54.107]: Info: Found display [wayland-1]
+[2025-04-22 21:55:54.107]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:55:54.107]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:55:54.107]: Info: Resolution: 2360x1640
+[2025-04-22 21:55:54.107]: Info: Name: DP-2
+[2025-04-22 21:55:54.107]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:55:54.107]: Info: Offset: 0x0
+[2025-04-22 21:55:54.107]: Info: Logical size: 2360x1640
+[2025-04-22 21:55:54.107]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:55:54.107]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:55:54.107]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:55:54.107]: Info: Screencasting with KMS
+[2025-04-22 21:55:54.107]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:55:54.107]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:55:54.107]: Info: Found connector ID [121]
+[2025-04-22 21:55:54.108]: Info: Found cursor plane [88]
+[2025-04-22 21:55:54.115]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:55:54.115]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:55:54.115]: Info: Color depth: 8-bit
+[2025-04-22 21:55:54.115]: Info: Color range: MPEG
+[2025-04-22 21:55:54.126]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:55:54.127]: Info: Using normal encoding mode
+[2025-04-22 21:55:54.127]: Info: Using default rate control
+[2025-04-22 21:55:54.571]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:55:54.572]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:55:54.592]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:57:29.075]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:57:29.075]: Info: Found display [wayland-1]
+[2025-04-22 21:57:29.075]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:57:29.075]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:57:29.075]: Info: Resolution: 3440x1440
+[2025-04-22 21:57:29.075]: Info: Name: DP-2
+[2025-04-22 21:57:29.075]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:57:29.075]: Info: Offset: 0x0
+[2025-04-22 21:57:29.075]: Info: Logical size: 3440x1440
+[2025-04-22 21:57:29.075]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:57:29.075]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:57:29.075]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:57:29.075]: Info: Screencasting with KMS
+[2025-04-22 21:57:29.075]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:57:29.075]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:57:29.075]: Info: Found connector ID [121]
+[2025-04-22 21:57:29.076]: Info: Found cursor plane [88]
+[2025-04-22 21:57:29.093]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:57:29.093]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:57:29.093]: Info: Color depth: 8-bit
+[2025-04-22 21:57:29.093]: Info: Color range: MPEG
+[2025-04-22 21:57:29.104]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:57:29.104]: Info: Using normal encoding mode
+[2025-04-22 21:57:29.104]: Info: Using default rate control
+[2025-04-22 21:58:28.092]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:58:28.097]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 21:58:33.303]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 21:58:33.303]: Info: Trying encoder [nvenc]
+[2025-04-22 21:58:33.303]: Info: Screencasting with KMS
+[2025-04-22 21:58:33.303]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.303]: Error: Couldn't find monitor [0]
+[2025-04-22 21:58:33.303]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.303]: Error: Couldn't find monitor [0]
+[2025-04-22 21:58:33.503]: Info: Screencasting with KMS
+[2025-04-22 21:58:33.503]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.504]: Error: Couldn't find monitor [0]
+[2025-04-22 21:58:33.504]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.504]: Error: Couldn't find monitor [0]
+[2025-04-22 21:58:33.704]: Info: Encoder [nvenc] failed
+[2025-04-22 21:58:33.704]: Info: Trying encoder [vaapi]
+[2025-04-22 21:58:33.704]: Info: Screencasting with KMS
+[2025-04-22 21:58:33.704]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.704]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:58:33.705]: Info: Found connector ID [121]
+[2025-04-22 21:58:33.705]: Info: Found cursor plane [88]
+[2025-04-22 21:58:33.711]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 21:58:33.711]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:58:33.711]: Info: Color depth: 8-bit
+[2025-04-22 21:58:33.711]: Info: Color range: JPEG
+[2025-04-22 21:58:33.721]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:58:33.722]: Info: Using normal encoding mode
+[2025-04-22 21:58:33.722]: Info: Using default rate control
+[2025-04-22 21:58:33.738]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:58:33.738]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:58:33.738]: Info: Color depth: 8-bit
+[2025-04-22 21:58:33.738]: Info: Color range: JPEG
+[2025-04-22 21:58:33.751]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:58:33.751]: Info: Using normal encoding mode
+[2025-04-22 21:58:33.751]: Info: Using default rate control
+[2025-04-22 21:58:33.771]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 21:58:33.771]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:58:33.771]: Info: Color depth: 8-bit
+[2025-04-22 21:58:33.771]: Info: Color range: JPEG
+[2025-04-22 21:58:33.781]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:58:33.781]: Error: [av1_vaapi @ 0x7cbf84061e80] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 21:58:33.782]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 21:58:33.783]: Info: Screencasting with KMS
+[2025-04-22 21:58:33.783]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.783]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:58:33.783]: Info: Found connector ID [121]
+[2025-04-22 21:58:33.783]: Info: Found cursor plane [88]
+[2025-04-22 21:58:33.789]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:58:33.789]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 21:58:33.789]: Info: Color depth: 10-bit
+[2025-04-22 21:58:33.789]: Info: Color range: JPEG
+[2025-04-22 21:58:33.799]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:58:33.799]: Info: Using normal encoding mode
+[2025-04-22 21:58:33.799]: Info: Using default rate control
+[2025-04-22 21:58:33.818]: Info: 
+[2025-04-22 21:58:33.818]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 21:58:33.818]: Info: 
+[2025-04-22 21:58:33.818]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 21:58:33.818]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 21:58:33.818]: Info: Executing [Desktop]
+[2025-04-22 21:58:33.879]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 21:58:33.919]: Info: CLIENT CONNECTED
+[2025-04-22 21:58:33.922]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.922]: Info: Found display [wayland-1]
+[2025-04-22 21:58:33.922]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 21:58:33.922]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 21:58:33.922]: Info: Resolution: 3440x1440
+[2025-04-22 21:58:33.922]: Info: Name: DP-2
+[2025-04-22 21:58:33.922]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:58:33.922]: Info: Offset: 0x0
+[2025-04-22 21:58:33.922]: Info: Logical size: 3440x1440
+[2025-04-22 21:58:33.922]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 21:58:33.922]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 21:58:33.922]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 21:58:33.922]: Info: Screencasting with KMS
+[2025-04-22 21:58:33.922]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 21:58:33.922]: Info: Found monitor for DRM screencasting
+[2025-04-22 21:58:33.922]: Info: Found connector ID [121]
+[2025-04-22 21:58:33.923]: Info: Found cursor plane [88]
+[2025-04-22 21:58:33.930]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 21:58:33.930]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 21:58:33.930]: Info: Color depth: 8-bit
+[2025-04-22 21:58:33.930]: Info: Color range: MPEG
+[2025-04-22 21:58:33.942]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 21:58:33.942]: Info: Using normal encoding mode
+[2025-04-22 21:58:33.942]: Info: Using default rate control
+[2025-04-22 21:58:34.410]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 21:58:34.411]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 21:58:34.431]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 21:58:37.194]: Info: CLIENT DISCONNECTED
+[2025-04-22 21:58:37.199]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 22:18:27.236]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2025-04-22 22:18:27.237]: Info: Trying encoder [nvenc]
+[2025-04-22 22:18:27.237]: Info: Screencasting with KMS
+[2025-04-22 22:18:27.237]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.237]: Error: Couldn't find monitor [0]
+[2025-04-22 22:18:27.237]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.237]: Error: Couldn't find monitor [0]
+[2025-04-22 22:18:27.437]: Info: Screencasting with KMS
+[2025-04-22 22:18:27.437]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.438]: Error: Couldn't find monitor [0]
+[2025-04-22 22:18:27.438]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.438]: Error: Couldn't find monitor [0]
+[2025-04-22 22:18:27.638]: Info: Encoder [nvenc] failed
+[2025-04-22 22:18:27.638]: Info: Trying encoder [vaapi]
+[2025-04-22 22:18:27.638]: Info: Screencasting with KMS
+[2025-04-22 22:18:27.638]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.638]: Info: Found monitor for DRM screencasting
+[2025-04-22 22:18:27.638]: Info: Found connector ID [121]
+[2025-04-22 22:18:27.639]: Info: Found cursor plane [88]
+[2025-04-22 22:18:27.646]: Info: Creating encoder [h264_vaapi]
+[2025-04-22 22:18:27.646]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 22:18:27.646]: Info: Color depth: 8-bit
+[2025-04-22 22:18:27.646]: Info: Color range: JPEG
+[2025-04-22 22:18:27.657]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 22:18:27.657]: Info: Using normal encoding mode
+[2025-04-22 22:18:27.657]: Info: Using default rate control
+[2025-04-22 22:18:27.676]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 22:18:27.676]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 22:18:27.676]: Info: Color depth: 8-bit
+[2025-04-22 22:18:27.676]: Info: Color range: JPEG
+[2025-04-22 22:18:27.686]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 22:18:27.686]: Info: Using normal encoding mode
+[2025-04-22 22:18:27.686]: Info: Using default rate control
+[2025-04-22 22:18:27.707]: Info: Creating encoder [av1_vaapi]
+[2025-04-22 22:18:27.707]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 22:18:27.707]: Info: Color depth: 8-bit
+[2025-04-22 22:18:27.707]: Info: Color range: JPEG
+[2025-04-22 22:18:27.719]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 22:18:27.719]: Error: [av1_vaapi @ 0x7cbf84032040] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2025-04-22 22:18:27.719]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2025-04-22 22:18:27.720]: Info: Screencasting with KMS
+[2025-04-22 22:18:27.720]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.721]: Info: Found monitor for DRM screencasting
+[2025-04-22 22:18:27.721]: Info: Found connector ID [121]
+[2025-04-22 22:18:27.721]: Info: Found cursor plane [88]
+[2025-04-22 22:18:27.727]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 22:18:27.727]: Info: Color coding: SDR (Rec. 709)
+[2025-04-22 22:18:27.727]: Info: Color depth: 10-bit
+[2025-04-22 22:18:27.727]: Info: Color range: JPEG
+[2025-04-22 22:18:27.738]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 22:18:27.738]: Info: Using normal encoding mode
+[2025-04-22 22:18:27.738]: Info: Using default rate control
+[2025-04-22 22:18:27.761]: Info: 
+[2025-04-22 22:18:27.762]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2025-04-22 22:18:27.762]: Info: 
+[2025-04-22 22:18:27.762]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2025-04-22 22:18:27.762]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2025-04-22 22:18:27.762]: Info: Executing [Desktop]
+[2025-04-22 22:18:27.902]: Info: New streaming session started [active sessions: 1]
+[2025-04-22 22:18:27.955]: Info: CLIENT CONNECTED
+[2025-04-22 22:18:27.956]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.957]: Info: Found display [wayland-1]
+[2025-04-22 22:18:27.957]: Info: Found interface: zxdg_output_manager_v1(9) version 3
+[2025-04-22 22:18:27.957]: Info: Found interface: wl_output(55) version 4
+[2025-04-22 22:18:27.957]: Info: Resolution: 3440x1440
+[2025-04-22 22:18:27.957]: Info: Name: DP-2
+[2025-04-22 22:18:27.957]: Info: Found monitor: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 22:18:27.957]: Info: Offset: 0x0
+[2025-04-22 22:18:27.957]: Info: Logical size: 3440x1440
+[2025-04-22 22:18:27.957]: Info: -------- Start of KMS monitor list --------
+[2025-04-22 22:18:27.957]: Info: Monitor 0 is DP-2: LG Electronics LG ULTRAGEAR 208NTUW4A870 (DP-2)
+[2025-04-22 22:18:27.957]: Info: --------- End of KMS monitor list ---------
+[2025-04-22 22:18:27.957]: Info: Screencasting with KMS
+[2025-04-22 22:18:27.957]: Info: /dev/dri/card1 -> amdgpu
+[2025-04-22 22:18:27.957]: Info: Found monitor for DRM screencasting
+[2025-04-22 22:18:27.957]: Info: Found connector ID [121]
+[2025-04-22 22:18:27.957]: Info: Found cursor plane [88]
+[2025-04-22 22:18:27.965]: Info: Creating encoder [hevc_vaapi]
+[2025-04-22 22:18:27.965]: Info: Color coding: SDR (Rec. 601)
+[2025-04-22 22:18:27.965]: Info: Color depth: 8-bit
+[2025-04-22 22:18:27.965]: Info: Color range: MPEG
+[2025-04-22 22:18:27.977]: Info: vaapi vendor: Mesa Gallium driver 25.0.3-arch1.1 for AMD Radeon RX 6800 XT (radeonsi, navi21, LLVM 19.1.7, DRM 3.61, 6.12.23-1-lts)
+[2025-04-22 22:18:27.978]: Info: Using normal encoding mode
+[2025-04-22 22:18:27.978]: Info: Using default rate control
+[2025-04-22 22:18:28.421]: Info: Setting default sink to: [sink-sunshine-stereo]
+[2025-04-22 22:18:28.421]: Info: Found default monitor by name: sink-sunshine-stereo.monitor
+[2025-04-22 22:18:28.441]: Info: Opus initialized: 48 kHz, 2 channels, 512 kbps (total), LOWDELAY
+[2025-04-22 22:22:35.319]: Info: Gamepad 0 will be Xbox One controller (default)
+[2025-04-22 22:27:25.826]: Info: CLIENT DISCONNECTED
+[2025-04-22 22:27:25.831]: Info: Setting default sink to: [alsa_output.pci-0000_0f_00.4.iec958-stereo]
+[2025-04-22 22:48:39.353]: Info: Quitting from system tray
+[2025-04-22 22:48:39.353]: Info: Interrupt handler called
