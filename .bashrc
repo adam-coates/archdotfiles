@@ -12,8 +12,6 @@ export PATH=$BUN_INSTALL/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH="/home/adam/psychopy_2024.2.4_py3.10/.bin:$PATH"
 
-export TODOIST_API_KEY="$(pass Todoist/API)"
-
 # -----------------------------------------------------
 # ALIASES
 # -----------------------------------------------------
@@ -121,3 +119,18 @@ eval "$(pyenv virtualenv-init -)"
 
 
 . "$HOME/.cargo/env"
+
+YDOTOOL_SOCKET="$HOME/.ydotool_socket"
+
+export YDOTOOL_SOCKET="$HOME/.ydotool_socket"
+
+
+# -----------------------------------------------------
+# Todoist completions
+# -----------------------------------------------------
+if [ -f ~/.bash_completions/todoist.bash ]; then
+    source ~/.bash_completions/todoist.bash
+    complete -F _tod tod
+fi
+
+
