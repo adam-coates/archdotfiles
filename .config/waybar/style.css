@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  border-radius: 0px;
+  border: none;
+  text-shadow: none;
+  transition: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  color: #ebdbb2;
+  /* background: none; */
+  background: #282828;
+  /* background: #232323; */
+  /* background: rgba(40, 40, 40, 1); */
+  /* border: 1px solid #32302F; */
+  /* border-bottom: 1px solid #282828; */
+  /* border-radius: 1px; */
+}
+
+window#waybar.hidden {
+  opacity: 0.98;
+}
+
+#workspaces button,
+#workspaces button:hover,
+#workspaces button.visible,
+#workspaces button.visible:hover,
+#workspaces button.active,
+#workspaces button.active:hover,
+#workspaces button.urgent,
+#window,
+#tray,
+#disk,
+#cpu,
+#temperature,
+#temperature.critical,
+#backlight,
+#custom-memory,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#clock,
+#custom-web-links,
+#power-profiles-daemon,
+#custom-power-button,
+#custom-rofi,
+#memory {
+  font-family: TX02 Nerd Font;
+  font-size: 14px;
+  font-weight: 800;
+  color: #282828;
+  /* background: #282828; */
+  /* border: 4px solid #282828; */
+  /* border-radius: 0px; */
+}
+
+#window,
+#tray,
+#disk,
+#cpu,
+#temperature,
+#temperature.critical,
+#backlight,
+#custom-memory,
+#pulseaudio,
+#pulseaudio.muted,
+#battery,
+#battery.critical,
+#battery.warning,
+#memory {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+/* ======================================================== */
+/* workspaces module */
+/* ======================================================== */
+/* #workspaces { */
+/*   margin: 3px; */
+/* } */
+
+@define-color gruvbox-bg #282828;
+@define-color gruvbox-bg-soft #32302f;
+@define-color gruvbox-bg-hard #1d2021;
+@define-color gruvbox-fg #ebdbb2;
+@define-color gruvbox-gray #928374;
+@define-color gruvbox-red #cc241d;
+@define-color gruvbox-green #98971a;
+@define-color gruvbox-yellow #d79921;
+@define-color gruvbox-blue #458588;
+@define-color gruvbox-purple #b16286;
+@define-color gruvbox-aqua #689d6a;
+@define-color gruvbox-orange #d65d0e;
+
+/* Bright versions */
+@define-color gruvbox-bright-red #fb4934;
+@define-color gruvbox-bright-green #b8bb26;
+@define-color gruvbox-bright-yellow #fabd2f;
+@define-color gruvbox-bright-blue #83a598;
+@define-color gruvbox-bright-purple #d3869b;
+@define-color gruvbox-bright-aqua #8ec07c;
+@define-color gruvbox-bright-orange #fe8019;
+
+/* Workspace styling with Gruvbox theme */
+#workspaces {
+    margin-right: 8px;
+    background: @gruvbox-bg-hard;
+    border-radius: 6px;
+    padding: 0 2px;
+}
+
+/* Base button styling */
+#workspaces button {
+    background-color: @gruvbox-bg;
+    color: @gruvbox-gray;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 4px;
+    margin: 4px 2px;
+    padding: 0 8px;
+    font-weight: bold;
+    min-width: 24px;
+}
+
+/* Empty workspaces */
+#workspaces button.empty {
+    color: @gruvbox-gray;
+    background-color: @gruvbox-bg;
+}
+
+/* Non-empty but not focused workspaces */
+#workspaces button.persistent:not(.empty):not(.active):not(.visible) {
+    color: @gruvbox-bright-yellow;
+    background-color: @gruvbox-bg;
+}
+
+/* Active workspace */
+#workspaces button.active {
+    color: @gruvbox-fg;
+    background-color: @gruvbox-bg-soft;
+    box-shadow: inset 0 -3px @gruvbox-fg;
+}
+
+/* Visible workspace (on other monitor) */
+#workspaces button.visible:not(.active) {
+    color: @gruvbox-bright-blue;
+    background-color: @gruvbox-bg-soft;
+    box-shadow: inset 0 -3px @gruvbox-bright-blue;
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+    color: @gruvbox-bright-red;
+    box-shadow: inset 0 -3px @gruvbox-bright-red;
+}
+
+/* Hover effects */
+#workspaces button:hover {
+    background-color: @gruvbox-bg-soft;
+    color: @gruvbox-fg;
+    box-shadow: inset 0 -2px @gruvbox-fg;
+    text-shadow: none;
+}
+
+
+/* ======================================================== */
+/* window */
+/* ======================================================== */
+#window {
+  color: #282828;
+  background: #83a598;
+  border-radius: 0.7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /* min-width: 20px; */
+}
+
+window#waybar.empty #window {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: transparent;
+}
+
+/* For debugging */
+/* window#waybar.empty { */
+/*   margin: 0; */
+/*   padding: 0; */
+/*   background: transparent; */
+/*   color: transparent; */
+/* } */
+
+/* ======================================================== */
+/* tray */
+/* ======================================================== */
+#tray {
+  padding: 0 6px 0 6px;
+}
+
+/* ======================================================== */
+/* disk */
+/* ======================================================== */
+#disk {
+  color: #ea6962;
+}
+
+/* ======================================================== */
+/* cpu */
+/* ======================================================== */
+#cpu {
+  color: #e78a4e;
+}
+
+/* ======================================================== */
+/* temp */
+/* ======================================================== */
+#temperature {
+  transition: color 0.3s ease;
+  color: #d8a657; /* Default color */
+}
+
+#temperature.critical {
+  color: #cc241d; /* Critical temperature color */
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0.6; }
+}
+/* ======================================================== */
+/* backlight */
+/* ======================================================== */
+#backlight {
+  color: #d8a657;
+}
+
+/* ======================================================== */
+/* memory */
+/* ======================================================== */
+#memory {
+  color: #b8bb26;
+}
+
+
+/* ======================================================== */
+/* bluetooth */
+/* ======================================================== */
+#bluetooth {
+  color: #83a598;
+}
+
+/* ======================================================== */
+/* pulseaudio */
+/* ======================================================== */
+#pulseaudio {
+  color: #83a598;
+}
+
+#pulseaudio.muted {
+  color: #ea6962;
+}
+
+
+/* ======================================================== */
+/* clock */
+/* ======================================================== */
+#clock {
+  color: #8ec07c;
+}
+
+/* ======================================================== */
+/* power-profiles-daemon */
+/* ======================================================== */
+#power-profiles-daemon {
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #d3869b;
+}
+
+/* ======================================================== */
+/* power-button */
+/* ======================================================== */
+#custom-power-button {
+  color: #cc241d;
+  margin-left: 2px;
+}
+
+/* ======================================================== */
+/* web-links */
+/* ======================================================== */
+#custom-web-links {
+  color: #83a598;
+}
+
+/* ======================================================== */
+/* custom-rofi */
+/* ======================================================== */
+#custom-rofi {
+  background: #cc241d;
+  border-radius: 0.7px;
+  min-width: 22px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
