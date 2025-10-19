@@ -4,7 +4,9 @@
 - KeyPress:
   - Super_L
   - depress
-- MouseScroll: [0, 1]
+- KeyPress:
+  - Tab
+  - click
 - Later: 1.0
 - KeyPress:
   - Super_L
@@ -15,7 +17,9 @@
 - KeyPress:
   - Super_L
   - depress
-- MouseScroll: [0, -1]
+- KeyPress:
+  - [Shift_L, Tab]
+  - click
 - Later: 1
 - KeyPress:
   - Super_L
