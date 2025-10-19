@@ -31,7 +31,7 @@
     gesture2-params, sidetone, equalizer, adc_power_management]
   _battery: 4100
   _modelId: B36900000000
-  _sensitive: {backlight: false, change-host: false, disable-keyboard-keys: true, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore,
+  _sensitive: {backlight: true, change-host: false, disable-keyboard-keys: true, hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore,
     multiplatform: false}
   _serial: '87243609'
   _unitId: '87243609'
